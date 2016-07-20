@@ -1,0 +1,32 @@
+<html>
+<p>
+What the difference between bound method and function?
+<br>
+<br>class Student:
+<br>&nbsp&nbsp&nbsp&nbsp    """this class describes
+<br>&nbsp&nbsp&nbsp&nbsp        the average student"""
+<br>&nbsp&nbsp&nbsp&nbsp
+<br>&nbsp&nbsp&nbsp&nbsp    debts_count = 10
+<br>&nbsp&nbsp&nbsp&nbsp
+<br>&nbsp&nbsp&nbsp&nbsp    def __init__(self, desire_to_learn=True):
+<br>&nbsp&nbsp&nbsp&nbsp        self.desire_to_learn = desire_to_learn
+<br>&nbsp&nbsp&nbsp&nbsp
+<br>&nbsp&nbsp&nbsp&nbsp    def pass_one_debt(self):
+<br>&nbsp&nbsp&nbsp&nbsp        self.debts_count -= 1
+<br>
+<br>student = Student()
+<br>print(student.pass_one_debt)
+<br>print(Student.pass_one_debt)
+<p>this code print<br>
+&lt;bound method Student.pass_one_debt of &lt;__main__.Student object at 0x7f7679568358&gt;&gt;<br/>
+    &lt;function Student.pass_one_debt at 0x7f76795637b8&gt;
+</p>
+<p>A function is created by the def statement, or by lambda. When a function appears within
+the body of a class statement (or is passed to a type class construction call), it is transformed
+into an unbound method. When a function is accessed on a class instance, it is transformed into
+a bound method, that automatically supplies the instance to the method as the first self parameter.</p>
+<p>In python 3 unbound method is missing. And  when a function appears within
+the body of a class statement, it is function type now </p>
+<br>
+Experiment with it!
+</html>

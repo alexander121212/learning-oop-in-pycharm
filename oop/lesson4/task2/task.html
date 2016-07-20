@@ -1,0 +1,36 @@
+<html>
+<p>Encapsulation - restrict access to the objects of the components ( methods and variables ) .
+Encapsulation makes some of the components are accessible only within the class .</p>
+
+<p>Encapsulation in Python works only at the level of agreement among programmers about what attributes
+are public and which - internal.</p>
+
+<p>Single underlining in the beginning of the name attribute indicates that a variable or method is not
+intended for use outside the class methods , however, is available on the attribute name.</p>
+
+class A:
+<br>&nbsp&nbsp&nbsp&nbsp    def _private(self):
+<br>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp        print("This is private method!")
+<br>
+<br>a = A()
+<br>a._private()
+<br>
+<p>The double underscore at the beginning of the name attribute gives more protection :
+the attribute is unavailable for this name. </p>
+<br>class B:
+<br>&nbsp&nbsp&nbsp&nbsp     def __private(self):
+<br>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp         print("This is private method!")
+<br>
+<br>b = B()
+<br>b._B__private()
+<p>However, it does not fully protect , as an attribute still remains available under
+the name _ClassName__AttributeName</p>
+<br>
+<p>Students very likes to eat cookies and drink coffee, but students are poor and hungry!
+    That's why they hide cookies and coffee that
+other students do not find them. </p>
+<br>your neighbor hide cookies and coffee! Find them!
+
+
+
+</html>

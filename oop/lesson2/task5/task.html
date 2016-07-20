@@ -1,0 +1,49 @@
+<html>
+if we talk about the attributes of the class ,
+it is worth mentioning the class constructor.
+<br>
+class Student:
+<br>
+    &nbsp&nbsp&nbsp&nbsp """this class describes
+<br>
+        &nbsp&nbsp&nbsp&nbsp the average student"""
+<br><br>
+    &nbsp&nbsp&nbsp&nbsp debts_count = 10
+<br><br>
+    &nbsp&nbsp&nbsp&nbspdef __init__(self, desireToLearn=True):
+<br>
+        &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp self.desire_to_learn = desire_to_learn
+<br><br>
+    &nbsp&nbsp&nbsp&nbspdef pass_one_debt(self):
+<br>
+        &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp self.debts_count -= 1
+<br><br>
+
+   &nbsp&nbsp&nbsp&nbsp def pass_all_debts(self):
+<br>
+        &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp self.debts_count = 0
+<br>
+
+student1 = Student(False)
+But stop! What is difference between definition debtsCount and desireToLearn?
+<br>
+<p>
+Both are attributes of class. The real answer lay in understanding the distinction between class and instance attributes.
+</p>
+<p>Python classes and instances of classes each have their own distinct namespaces represented by pre-defined
+attributes Student.__dict__ and instance_of_Student.__dict__, respectively.</p>
+<p>When you try to access an attribute from an instance of a class, it first looks at its instance namespace.
+If it finds the attribute, it returns the associated value. If not, it then looks in the class namespace and
+returns the attribute (if it’s present, throwing an error otherwise).</p>
+
+What does it need to know?
+<br>
+if you need to use an instances of the class , the best way to determine the attributes in constructor.
+<br>
+if you need to use an object of the class, as functor, the best way to determine the attributes in class namespace.
+<br>
+It helps you to save your programme time.
+<br>Now let's play with it!
+<br>
+Create instance of Student class named student1, that doesn't want to learn! And student2, that want to learn.
+</html>

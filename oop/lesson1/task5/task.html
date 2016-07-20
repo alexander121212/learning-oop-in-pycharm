@@ -1,0 +1,45 @@
+<html>
+
+<p>Next step of our edu is understand difference between class and object of class.</p>
+<p>What does it mean class?</p>
+<p>Сlass - is a template , a description not only of the structure of the data
+( what it can or should be ) , but also behavior , functionality of the objects of this class.
+To understand what the object of the class must be imagined abstracting and understand what the object is.
+Philosophy says that the object - a philosophical category expressing something that exists in reality .
+Programming says that the object - it is an entity in the virtual space ,
+has a certain status and behavior , has given values ​​of properties ( attributes)
+and operations on them ( methods). Now we learn programming, so let's build on the second definition.
+So, we have object which has status and behavior and we have class that can describe status and behavior
+in terms of attributes and methods. Therefore , the class object - an object state and behavior which describes the class
+Instance is specific object of this class.</p>
+<p>I don't want to break your mind. Let's see example.</p>
+<br><b>this is class</b>
+<br>class Student:
+<br>&nbsp&nbsp&nbsp&nbsp    """this class describes
+<br>&nbsp&nbsp&nbsp&nbsp        the average student"""
+<br>
+<br>&nbsp&nbsp&nbsp&nbspdebtsCount = 10
+<br>
+<br>&nbsp&nbsp&nbsp&nbsp    def pass_one_debt(self):
+<br>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp        self.debts_count -= 1
+<br>
+<br>&nbsp&nbsp&nbsp&nbsp    def pass_all_debts(self):
+<br>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp        self.debts_count = 0
+<br>
+<br><b>This is object of the class</b>
+<br>    Student.debts_count
+<br>
+<br><b> this is instance of the object of the class</b>
+<br>student = Student()
+<br>
+<br>
+<p>Our class is Student. Our instace of the class is student. He can pass 1 debt or all debts - this is his behaivior.
+student has 10 debts - this is his status.</p>
+<br>if wee want to see his count of debts, we will ask like:
+<br><i>student.debts_count</i>
+<br>if student wants to pass 1 debt, he will do it like:
+<br><i>student.pass_one_debt()</i>
+<br>
+<br>Let's create class instance student and help him to pass all debts!!!!
+
+</html>

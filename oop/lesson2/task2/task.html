@@ -1,0 +1,31 @@
+<html>
+Python provides 2 ways remove attributes of the class
+<br>
+First is operator del:
+<br>
+del ClassName.attribute
+<br>
+Second is function delattr(obj, 'attribute')
+<br>
+del is more explicit and efficient;
+<br>
+delattr allows dynamic attribute deleting.
+<br>
+Why?
+<br>
+del ClassName.attribute compiles to two bytecode instructions:
+<br>
+0 LOAD_FAST                0 (ClassName)
+<br>
+3 DELETE_ATTR              0 (attribute)
+<br>
+whereas delattr(ClassName, "attribute") takes five:
+<br>
+0 LOAD_GLOBAL              0 (delattr)
+<br>3 LOAD_FAST                0 (ClassName)
+<br>6 LOAD_CONST               1 ('attribute')
+<br>9 CALL_FUNCTION            2
+<br>12 POP_TOP
+<br>
+Let's try both!
+</html>

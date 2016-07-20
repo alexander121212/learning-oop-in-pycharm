@@ -1,0 +1,77 @@
+<html>
+Now I want to know what the difference between staticmethod and classmethod. And for what they need, of course!
+class Student:
+<br>&nbsp&nbsp&nbsp&nbsp    """this class describes
+<br>&nbsp&nbsp&nbsp&nbsp        the average student"""
+<br>&nbsp&nbsp&nbsp&nbsp
+<br>&nbsp&nbsp&nbsp&nbsp    debts_count = 10
+<br>&nbsp&nbsp&nbsp&nbsp
+<br>&nbsp&nbsp&nbsp&nbsp    def __init__(self, desire_to_learn=True):
+<br>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp        self.desire_to_learn = desire_to_learn
+<br>&nbsp&nbsp&nbsp&nbsp
+<br>&nbsp&nbsp&nbsp&nbsp    def pass_one_debt(self):
+<br>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp        self.debts_count -= 1
+<br>&nbsp&nbsp&nbsp&nbsp
+<br>&nbsp&nbsp&nbsp&nbsp    def pass_all_debts(self):
+<br>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp        self.debts_count = 0
+<br>&nbsp&nbsp&nbsp&nbsp
+<br>&nbsp&nbsp&nbsp&nbsp    def play_truant(self, victory_cry):
+<br>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp        print((victory_cry + " I'am play truant this boring lessons!!! object is %s")%self)
+<br>&nbsp&nbsp&nbsp&nbsp
+<br>&nbsp&nbsp&nbsp&nbsp    @classmethod
+<br>&nbsp&nbsp&nbsp&nbsp    def class_play_truant(cls, victory_cry):
+<br>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp        print((victory_cry + " I'am play truant this boring lessons!!! object is %s")%cls)
+<br>&nbsp&nbsp&nbsp&nbsp
+<br>&nbsp&nbsp&nbsp&nbsp    @staticmethod
+<br>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp    def static_play_truant(victory_cry):
+<br>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp        print(victory_cry + " I'am play truant this boring lessons!!!")
+<br>
+<br>student = Student()
+<br>Below is the usual way an object instance calls a method. The object instance, a, is implicitly passed as the first argument.
+<br>
+<br>student.Student(1)
+<br>executing foo(&lt;__main__.Student object at 0x7f2fffee24e0&gt;)
+<br><b>With classmethods</b>, the class of the object instance is implicitly passed as the first argument instead of self.
+<br>
+<br>student.class_play_truant('yeeea')
+<br># executing class_play_truant(&lt;class &#39;__main__.Student&#39;&gt;)
+<br>You can also call class_play_truant using the class. In fact, if you define something to be a classmethod, it is probably
+<br>because you intend to call it from the class rather than from a class instance. Student.play_truant('yeeehi') would have raised a
+<br>TypeError, but Student.class_play_truant('yeeehi') works just fine:
+<br>
+<br>Student.class_play_truant('yeeehi')
+<br># executing class_play_truant(class &#39;__main__.Student&#39;)
+<br>One use people have found for class methods is to create inheritable alternative constructors.
+<br>
+<p><b>With staticmethods</b>, neither self (the object instance) nor  cls (the class) is implicitly
+passed as the first argument. They behave like plain functions except that you can call them from an
+instance or the class:</p>
+<br>
+<br>student.static_play_truant('ufffffff')
+<br># executing static_play_truant
+<br>
+<br>Student.static_play_truant('hi')
+<br># executing static_play_truant(hi)
+<br>Staticmethods are used to group functions which have some logical connection with a class to the class.
+<br>
+<p>static_play_truant is just a function, but when you call student.static_play_truant you don't just get
+the function, you get a "partially applied" version of the function with the object instance a bound
+as the first argument to the function. foo expects 2 arguments, while a.foo only expects 1 argument.
+</p>
+a is bound to foo. That is what is meant by the term "bound" below:
+<br>
+<br>print(student.play_truant)
+<br># &lt;bound method Student.play_truant of &lt;__main__.Student object at 0x7f22ae5d3588&gt;&gt;
+<br>With student.class_play_truant, a is not bound to class_play_truant, rather the class Student is bound to class_play_truant.
+<br>
+<br>print(student.class_play_truant)
+<br>&lt;bound method Student.play_truant of &lt;__main__.Student object at 0x7f22ae5d3588&gt;&gt;
+<p>Here, with a staticmethod, even though it is a method, student.static_play_truant just returns a good 'ole
+function with no arguments bound. static_play_truant expects 1 argument, and student.static_play_truant expects 1 argument too.
+</p>
+<br>print(student.static_play_truant)
+<br># &lt;function Student.static_play_truant at 0x7fe7618138c8&gt;
+<br>
+Now, let play with it)))
+
+</html>

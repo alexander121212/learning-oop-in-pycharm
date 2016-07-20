@@ -1,0 +1,35 @@
+<html>
+<p>Descriptor - a class that stores and controls the attributes of other classes.
+In general, any class that implements one of the special methods -
+__get__, __set__, __delete__, is a descriptor.</p>
+<br>Example:
+<br>class ExternalStorage:
+<br>&nbsp&nbsp&nbsp&nbsp  __slots__ = ("attribute_name",)
+<br>&nbsp&nbsp&nbsp&nbsp  __storage = {}
+<br>
+<br>&nbsp&nbsp&nbsp&nbsp  def __init __ (self, attribute_name):
+<br>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp      self.attribute_name = attribute_name
+<br>
+<br>&nbsp&nbsp&nbsp&nbsp  def __set __ (self, instance, value):
+<br>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp      self .__ storage [id (instance), self.attribute_name] = value
+<br>
+<br>&nbsp&nbsp&nbsp&nbsp  def __get __ (self, instance, owner = None):
+<br>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp      if instance is None:
+<br>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp          return self
+<br>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp      return self .__ storage [id (instance), self.attribute_name]
+<br>
+<br>class Point:
+<br>&nbsp&nbsp&nbsp&nbsp  __slots__ = ()
+<br>&nbsp&nbsp&nbsp&nbsp  x = ExternalStorage ("x")
+<br>&nbsp&nbsp&nbsp&nbsp  y = ExternalStorage ("y")
+<br>&nbsp&nbsp&nbsp&nbsp  def __init __ (self, x = 0, y = 0):
+<br>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp    self.x = x
+<br>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp    self.y = y
+<br>
+<br>P1 = Point (1,2)
+<br>P2 = Point (3,4)
+<p>In this case, the Point class does not have its own attributes x, y, though their causes,
+    as if they are - in fact, they are stored in the descriptor ExternalStorage.</p>
+<br>
+<br> Now let,s do practice! Lets create descriptor named FridgeStorage, where students will stores his food!
+</html>

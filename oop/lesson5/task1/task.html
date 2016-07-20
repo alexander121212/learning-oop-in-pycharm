@@ -1,0 +1,20 @@
+<html>
+<br>This pattern allows you to create only one instance of a class. The method used __new__:
+<br>
+<br>class Singleton(object):
+<br>&nbsp&nbsp&nbsp&nbspdef __new__(cls, *args, **kw):
+<br>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspif not hasattr(cls, '_instance'):
+<br>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsporig = super(Singleton, cls)
+<br>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspcls._instance = orig.__new__(cls, *args, **kw)
+<br>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspreturn cls._instance
+<br>
+<br>
+<br>one = Singleton()
+<br>two = Singleton()
+<br>print(id(one) == id(two))
+<br>True
+<p>In 1990 th was the demographic crisis in Russia,
+so unpopular received one small group of students. Exactly one . How to do it?</p>
+<br>
+
+</html>

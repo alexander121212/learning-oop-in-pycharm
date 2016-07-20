@@ -1,0 +1,2812 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="StudySettings">
+    <StudyTaskManager>
+      <option name="course">
+        <Course>
+          <option name="authors">
+            <list />
+          </option>
+          <option name="courseDirectory" value="$APPLICATION_CONFIG_DIR$/courses/pythons_oop" />
+          <option name="courseType" value="PyCharm" />
+          <option name="description" value="This is course help you to get interesting information about classes in python" />
+          <option name="language" value="Python" />
+          <option name="lessons">
+            <list>
+              <Lesson>
+                <option name="index" value="1" />
+                <option name="name" value="fast intro" />
+                <option name="id" value="0" />
+                <option name="taskList">
+                  <list>
+                    <Task>
+                      <option name="index" value="1" />
+                      <option name="name" value="Class definition" />
+                      <option name="stepicId" value="0" />
+                      <option name="text" />
+                      <option name="taskFiles">
+                        <map>
+                          <entry key="ClassDefinition.py">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list>
+                                    <AnswerPlaceholder>
+                                      <option name="hint" value="" />
+                                      <option name="index" value="0" />
+                                      <option name="initialState">
+                                        <MyInitialState>
+                                          <option name="myLine" value="0" />
+                                          <option name="myLength" value="13" />
+                                          <option name="myStart" value="0" />
+                                        </MyInitialState>
+                                      </option>
+                                      <option name="length" value="5" />
+                                      <option name="line" value="0" />
+                                      <option name="possibleAnswer" value="class" />
+                                      <option name="start" value="0" />
+                                      <option name="taskText" />
+                                    </AnswerPlaceholder>
+                                  </list>
+                                </option>
+                                <option name="highlightErrors" value="true" />
+                                <option name="index" value="0" />
+                                <option name="trackChanges" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="name" value="task.py" />
+                                <option name="text" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                    </Task>
+                    <Task>
+                      <option name="index" value="2" />
+                      <option name="name" value="Documentation string" />
+                      <option name="stepicId" value="0" />
+                      <option name="text" />
+                      <option name="taskFiles">
+                        <map>
+                          <entry key="Docstring.py">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list>
+                                    <AnswerPlaceholder>
+                                      <option name="hint" value="" />
+                                      <option name="index" value="0" />
+                                      <option name="initialState">
+                                        <MyInitialState>
+                                          <option name="myLine" value="1" />
+                                          <option name="myLength" value="0" />
+                                          <option name="myStart" value="7" />
+                                        </MyInitialState>
+                                      </option>
+                                      <option name="length" value="3" />
+                                      <option name="line" value="1" />
+                                      <option name="possibleAnswer" value="          " />
+                                      <option name="start" value="7" />
+                                      <option name="taskText" />
+                                    </AnswerPlaceholder>
+                                    <AnswerPlaceholder>
+                                      <option name="hint" value="" />
+                                      <option name="index" value="1" />
+                                      <option name="initialState">
+                                        <MyInitialState>
+                                          <option name="myLine" value="4" />
+                                          <option name="myLength" value="9" />
+                                          <option name="myStart" value="13" />
+                                        </MyInitialState>
+                                      </option>
+                                      <option name="length" value="8" />
+                                      <option name="line" value="4" />
+                                      <option name="possibleAnswer" value=".__doc__" />
+                                      <option name="start" value="13" />
+                                      <option name="taskText" />
+                                    </AnswerPlaceholder>
+                                  </list>
+                                </option>
+                                <option name="highlightErrors" value="true" />
+                                <option name="index" value="0" />
+                                <option name="trackChanges" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="name" value="task.py" />
+                                <option name="text" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                    </Task>
+                    <Task>
+                      <option name="index" value="3" />
+                      <option name="name" value="Class attributes" />
+                      <option name="stepicId" value="0" />
+                      <option name="text" />
+                      <option name="taskFiles">
+                        <map>
+                          <entry key="parameters.py">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list>
+                                    <AnswerPlaceholder>
+                                      <option name="hint" value="" />
+                                      <option name="index" value="0" />
+                                      <option name="initialState">
+                                        <MyInitialState>
+                                          <option name="myLine" value="4" />
+                                          <option name="myLength" value="18" />
+                                          <option name="myStart" value="4" />
+                                        </MyInitialState>
+                                      </option>
+                                      <option name="length" value="11" />
+                                      <option name="line" value="4" />
+                                      <option name="possibleAnswer" value="debts_count" />
+                                      <option name="start" value="4" />
+                                      <option name="taskText" />
+                                    </AnswerPlaceholder>
+                                    <AnswerPlaceholder>
+                                      <option name="hint" value="" />
+                                      <option name="index" value="1" />
+                                      <option name="initialState">
+                                        <MyInitialState>
+                                          <option name="myLine" value="4" />
+                                          <option name="myLength" value="18" />
+                                          <option name="myStart" value="25" />
+                                        </MyInitialState>
+                                      </option>
+                                      <option name="length" value="1" />
+                                      <option name="line" value="4" />
+                                      <option name="possibleAnswer" value="0" />
+                                      <option name="start" value="18" />
+                                      <option name="taskText" />
+                                    </AnswerPlaceholder>
+                                    <AnswerPlaceholder>
+                                      <option name="hint" value="" />
+                                      <option name="index" value="2" />
+                                      <option name="initialState">
+                                        <MyInitialState>
+                                          <option name="myLine" value="6" />
+                                          <option name="myLength" value="24" />
+                                          <option name="myStart" value="24" />
+                                        </MyInitialState>
+                                      </option>
+                                      <option name="length" value="11" />
+                                      <option name="line" value="6" />
+                                      <option name="possibleAnswer" value="debts_count" />
+                                      <option name="start" value="24" />
+                                      <option name="taskText" />
+                                    </AnswerPlaceholder>
+                                  </list>
+                                </option>
+                                <option name="highlightErrors" value="true" />
+                                <option name="index" value="0" />
+                                <option name="trackChanges" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="name" value="task.py" />
+                                <option name="text" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                    </Task>
+                    <Task>
+                      <option name="index" value="4" />
+                      <option name="name" value="Class methods" />
+                      <option name="stepicId" value="0" />
+                      <option name="text" />
+                      <option name="taskFiles">
+                        <map>
+                          <entry key="methods.py">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list>
+                                    <AnswerPlaceholder>
+                                      <option name="hint" value="" />
+                                      <option name="index" value="0" />
+                                      <option name="initialState">
+                                        <MyInitialState>
+                                          <option name="myLine" value="6" />
+                                          <option name="myLength" value="14" />
+                                          <option name="myStart" value="8" />
+                                        </MyInitialState>
+                                      </option>
+                                      <option name="length" value="16" />
+                                      <option name="line" value="6" />
+                                      <option name="possibleAnswer" value="pass_one_subject" />
+                                      <option name="start" value="8" />
+                                      <option name="taskText" />
+                                    </AnswerPlaceholder>
+                                    <AnswerPlaceholder>
+                                      <option name="hint" value="" />
+                                      <option name="index" value="1" />
+                                      <option name="initialState">
+                                        <MyInitialState>
+                                          <option name="myLine" value="7" />
+                                          <option name="myLength" value="23" />
+                                          <option name="myStart" value="8" />
+                                        </MyInitialState>
+                                      </option>
+                                      <option name="length" value="18" />
+                                      <option name="line" value="7" />
+                                      <option name="possibleAnswer" value="self.subject_count" />
+                                      <option name="start" value="8" />
+                                      <option name="taskText" />
+                                    </AnswerPlaceholder>
+                                  </list>
+                                </option>
+                                <option name="highlightErrors" value="true" />
+                                <option name="index" value="0" />
+                                <option name="trackChanges" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="name" value="task.py" />
+                                <option name="text" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                    </Task>
+                    <Task>
+                      <option name="index" value="5" />
+                      <option name="name" value="Classes, objects,  instances" />
+                      <option name="stepicId" value="0" />
+                      <option name="text" />
+                      <option name="taskFiles">
+                        <map>
+                          <entry key="objects.py">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list>
+                                    <AnswerPlaceholder>
+                                      <option name="hint" value="" />
+                                      <option name="index" value="0" />
+                                      <option name="initialState">
+                                        <MyInitialState>
+                                          <option name="myLine" value="16" />
+                                          <option name="myLength" value="15" />
+                                          <option name="myStart" value="0" />
+                                        </MyInitialState>
+                                      </option>
+                                      <option name="length" value="7" />
+                                      <option name="line" value="16" />
+                                      <option name="possibleAnswer" value="student" />
+                                      <option name="start" value="0" />
+                                      <option name="taskText" />
+                                    </AnswerPlaceholder>
+                                    <AnswerPlaceholder>
+                                      <option name="hint" value="" />
+                                      <option name="index" value="1" />
+                                      <option name="initialState">
+                                        <MyInitialState>
+                                          <option name="myLine" value="17" />
+                                          <option name="myLength" value="15" />
+                                          <option name="myStart" value="0" />
+                                        </MyInitialState>
+                                      </option>
+                                      <option name="length" value="7" />
+                                      <option name="line" value="17" />
+                                      <option name="possibleAnswer" value="student" />
+                                      <option name="start" value="0" />
+                                      <option name="taskText" />
+                                    </AnswerPlaceholder>
+                                    <AnswerPlaceholder>
+                                      <option name="hint" value="" />
+                                      <option name="index" value="2" />
+                                      <option name="initialState">
+                                        <MyInitialState>
+                                          <option name="myLine" value="17" />
+                                          <option name="myLength" value="22" />
+                                          <option name="myStart" value="16" />
+                                        </MyInitialState>
+                                      </option>
+                                      <option name="length" value="14" />
+                                      <option name="line" value="17" />
+                                      <option name="possibleAnswer" value="pass_all_debts" />
+                                      <option name="start" value="8" />
+                                      <option name="taskText" />
+                                    </AnswerPlaceholder>
+                                    <AnswerPlaceholder>
+                                      <option name="hint" value="" />
+                                      <option name="index" value="3" />
+                                      <option name="initialState">
+                                        <MyInitialState>
+                                          <option name="myLine" value="18" />
+                                          <option name="myLength" value="15" />
+                                          <option name="myStart" value="6" />
+                                        </MyInitialState>
+                                      </option>
+                                      <option name="length" value="7" />
+                                      <option name="line" value="18" />
+                                      <option name="possibleAnswer" value="student" />
+                                      <option name="start" value="6" />
+                                      <option name="taskText" />
+                                    </AnswerPlaceholder>
+                                  </list>
+                                </option>
+                                <option name="highlightErrors" value="true" />
+                                <option name="index" value="0" />
+                                <option name="trackChanges" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="name" value="task.py" />
+                                <option name="text" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                    </Task>
+                  </list>
+                </option>
+              </Lesson>
+              <Lesson>
+                <option name="index" value="2" />
+                <option name="name" value="Deep into class attributes" />
+                <option name="id" value="0" />
+                <option name="taskList">
+                  <list>
+                    <Task>
+                      <option name="index" value="1" />
+                      <option name="name" value="Add attributes" />
+                      <option name="stepicId" value="0" />
+                      <option name="text" />
+                      <option name="taskFiles">
+                        <map>
+                          <entry key="addattributes.py">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list>
+                                    <AnswerPlaceholder>
+                                      <option name="hint" value="" />
+                                      <option name="index" value="0" />
+                                      <option name="initialState">
+                                        <MyInitialState>
+                                          <option name="myLine" value="16" />
+                                          <option name="myLength" value="18" />
+                                          <option name="myStart" value="8" />
+                                        </MyInitialState>
+                                      </option>
+                                      <option name="length" value="9" />
+                                      <option name="line" value="16" />
+                                      <option name="possibleAnswer" value="free_time" />
+                                      <option name="start" value="8" />
+                                      <option name="taskText" />
+                                    </AnswerPlaceholder>
+                                    <AnswerPlaceholder>
+                                      <option name="hint" value="" />
+                                      <option name="index" value="1" />
+                                      <option name="initialState">
+                                        <MyInitialState>
+                                          <option name="myLine" value="17" />
+                                          <option name="myLength" value="23" />
+                                          <option name="myStart" value="75" />
+                                        </MyInitialState>
+                                      </option>
+                                      <option name="length" value="9" />
+                                      <option name="line" value="17" />
+                                      <option name="possibleAnswer" value="free_time" />
+                                      <option name="start" value="75" />
+                                      <option name="taskText" />
+                                    </AnswerPlaceholder>
+                                    <AnswerPlaceholder>
+                                      <option name="hint" value="" />
+                                      <option name="index" value="2" />
+                                      <option name="initialState">
+                                        <MyInitialState>
+                                          <option name="myLine" value="20" />
+                                          <option name="myLength" value="17" />
+                                          <option name="myStart" value="67" />
+                                        </MyInitialState>
+                                      </option>
+                                      <option name="length" value="9" />
+                                      <option name="line" value="20" />
+                                      <option name="possibleAnswer" value="free_time" />
+                                      <option name="start" value="67" />
+                                      <option name="taskText" />
+                                    </AnswerPlaceholder>
+                                  </list>
+                                </option>
+                                <option name="highlightErrors" value="true" />
+                                <option name="index" value="0" />
+                                <option name="trackChanges" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="name" value="task.py" />
+                                <option name="text" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                    </Task>
+                    <Task>
+                      <option name="index" value="2" />
+                      <option name="name" value="Delete attributes" />
+                      <option name="stepicId" value="0" />
+                      <option name="text" />
+                      <option name="taskFiles">
+                        <map>
+                          <entry key="task.py">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list>
+                                    <AnswerPlaceholder>
+                                      <option name="hint" value="" />
+                                      <option name="index" value="0" />
+                                      <option name="initialState">
+                                        <MyInitialState>
+                                          <option name="myLine" value="19" />
+                                          <option name="myLength" value="16" />
+                                          <option name="myStart" value="0" />
+                                        </MyInitialState>
+                                      </option>
+                                      <option name="length" value="3" />
+                                      <option name="line" value="19" />
+                                      <option name="possibleAnswer" value="del" />
+                                      <option name="start" value="0" />
+                                      <option name="taskText" />
+                                    </AnswerPlaceholder>
+                                    <AnswerPlaceholder>
+                                      <option name="hint" value="" />
+                                      <option name="index" value="1" />
+                                      <option name="initialState">
+                                        <MyInitialState>
+                                          <option name="myLine" value="27" />
+                                          <option name="myLength" value="16" />
+                                          <option name="myStart" value="0" />
+                                        </MyInitialState>
+                                      </option>
+                                      <option name="length" value="7" />
+                                      <option name="line" value="27" />
+                                      <option name="possibleAnswer" value="delattr" />
+                                      <option name="start" value="0" />
+                                      <option name="taskText" />
+                                    </AnswerPlaceholder>
+                                  </list>
+                                </option>
+                                <option name="highlightErrors" value="true" />
+                                <option name="index" value="0" />
+                                <option name="trackChanges" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="name" value="task.py" />
+                                <option name="text" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                    </Task>
+                    <Task>
+                      <option name="index" value="3" />
+                      <option name="name" value="special attributes of objects of the classes" />
+                      <option name="stepicId" value="0" />
+                      <option name="text" />
+                      <option name="taskFiles">
+                        <map>
+                          <entry key="special.py">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list>
+                                    <AnswerPlaceholder>
+                                      <option name="hint" value="" />
+                                      <option name="index" value="0" />
+                                      <option name="initialState">
+                                        <MyInitialState>
+                                          <option name="myLine" value="12" />
+                                          <option name="myLength" value="4" />
+                                          <option name="myStart" value="44" />
+                                        </MyInitialState>
+                                      </option>
+                                      <option name="length" value="8" />
+                                      <option name="line" value="12" />
+                                      <option name="possibleAnswer" value="__name__" />
+                                      <option name="start" value="44" />
+                                      <option name="taskText" />
+                                    </AnswerPlaceholder>
+                                    <AnswerPlaceholder>
+                                      <option name="hint" value="" />
+                                      <option name="index" value="1" />
+                                      <option name="initialState">
+                                        <MyInitialState>
+                                          <option name="myLine" value="13" />
+                                          <option name="myLength" value="10" />
+                                          <option name="myStart" value="34" />
+                                        </MyInitialState>
+                                      </option>
+                                      <option name="length" value="10" />
+                                      <option name="line" value="13" />
+                                      <option name="possibleAnswer" value="__module__" />
+                                      <option name="start" value="34" />
+                                      <option name="taskText" />
+                                    </AnswerPlaceholder>
+                                    <AnswerPlaceholder>
+                                      <option name="hint" value="" />
+                                      <option name="index" value="2" />
+                                      <option name="initialState">
+                                        <MyInitialState>
+                                          <option name="myLine" value="14" />
+                                          <option name="myLength" value="10" />
+                                          <option name="myStart" value="50" />
+                                        </MyInitialState>
+                                      </option>
+                                      <option name="length" value="8" />
+                                      <option name="line" value="14" />
+                                      <option name="possibleAnswer" value="__dict__" />
+                                      <option name="start" value="50" />
+                                      <option name="taskText" />
+                                    </AnswerPlaceholder>
+                                    <AnswerPlaceholder>
+                                      <option name="hint" value="" />
+                                      <option name="index" value="3" />
+                                      <option name="initialState">
+                                        <MyInitialState>
+                                          <option name="myLine" value="15" />
+                                          <option name="myLength" value="5" />
+                                          <option name="myStart" value="68" />
+                                        </MyInitialState>
+                                      </option>
+                                      <option name="length" value="9" />
+                                      <option name="line" value="15" />
+                                      <option name="possibleAnswer" value="__bases__" />
+                                      <option name="start" value="68" />
+                                      <option name="taskText" />
+                                    </AnswerPlaceholder>
+                                    <AnswerPlaceholder>
+                                      <option name="hint" value="" />
+                                      <option name="index" value="4" />
+                                      <option name="initialState">
+                                        <MyInitialState>
+                                          <option name="myLine" value="16" />
+                                          <option name="myLength" value="9" />
+                                          <option name="myStart" value="49" />
+                                        </MyInitialState>
+                                      </option>
+                                      <option name="length" value="7" />
+                                      <option name="line" value="16" />
+                                      <option name="possibleAnswer" value="__doc__" />
+                                      <option name="start" value="49" />
+                                      <option name="taskText" />
+                                    </AnswerPlaceholder>
+                                  </list>
+                                </option>
+                                <option name="highlightErrors" value="true" />
+                                <option name="index" value="0" />
+                                <option name="trackChanges" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="name" value="task.py" />
+                                <option name="text" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                    </Task>
+                    <Task>
+                      <option name="index" value="4" />
+                      <option name="name" value="special attributes of instances" />
+                      <option name="stepicId" value="0" />
+                      <option name="text" />
+                      <option name="taskFiles">
+                        <map>
+                          <entry key="task.py">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list>
+                                    <AnswerPlaceholder>
+                                      <option name="hint" value="" />
+                                      <option name="index" value="0" />
+                                      <option name="initialState">
+                                        <MyInitialState>
+                                          <option name="myLine" value="15" />
+                                          <option name="myLength" value="26" />
+                                          <option name="myStart" value="31" />
+                                        </MyInitialState>
+                                      </option>
+                                      <option name="length" value="8" />
+                                      <option name="line" value="15" />
+                                      <option name="possibleAnswer" value="__init__" />
+                                      <option name="start" value="31" />
+                                      <option name="taskText" />
+                                    </AnswerPlaceholder>
+                                    <AnswerPlaceholder>
+                                      <option name="hint" value="" />
+                                      <option name="index" value="1" />
+                                      <option name="initialState">
+                                        <MyInitialState>
+                                          <option name="myLine" value="16" />
+                                          <option name="myLength" value="26" />
+                                          <option name="myStart" value="72" />
+                                        </MyInitialState>
+                                      </option>
+                                      <option name="length" value="9" />
+                                      <option name="line" value="16" />
+                                      <option name="possibleAnswer" value="__class__" />
+                                      <option name="start" value="72" />
+                                      <option name="taskText" />
+                                    </AnswerPlaceholder>
+                                    <AnswerPlaceholder>
+                                      <option name="hint" value="" />
+                                      <option name="index" value="2" />
+                                      <option name="initialState">
+                                        <MyInitialState>
+                                          <option name="myLine" value="17" />
+                                          <option name="myLength" value="26" />
+                                          <option name="myStart" value="46" />
+                                        </MyInitialState>
+                                      </option>
+                                      <option name="length" value="8" />
+                                      <option name="line" value="17" />
+                                      <option name="possibleAnswer" value="__dict__" />
+                                      <option name="start" value="46" />
+                                      <option name="taskText" />
+                                    </AnswerPlaceholder>
+                                    <AnswerPlaceholder>
+                                      <option name="hint" value="" />
+                                      <option name="index" value="3" />
+                                      <option name="initialState">
+                                        <MyInitialState>
+                                          <option name="myLine" value="18" />
+                                          <option name="myLength" value="26" />
+                                          <option name="myStart" value="65" />
+                                        </MyInitialState>
+                                      </option>
+                                      <option name="length" value="8" />
+                                      <option name="line" value="18" />
+                                      <option name="possibleAnswer" value="__hash__" />
+                                      <option name="start" value="65" />
+                                      <option name="taskText" />
+                                    </AnswerPlaceholder>
+                                    <AnswerPlaceholder>
+                                      <option name="hint" value="" />
+                                      <option name="index" value="4" />
+                                      <option name="initialState">
+                                        <MyInitialState>
+                                          <option name="myLine" value="19" />
+                                          <option name="myLength" value="26" />
+                                          <option name="myStart" value="39" />
+                                        </MyInitialState>
+                                      </option>
+                                      <option name="length" value="11" />
+                                      <option name="line" value="19" />
+                                      <option name="possibleAnswer" value="__delattr__" />
+                                      <option name="start" value="39" />
+                                      <option name="taskText" />
+                                    </AnswerPlaceholder>
+                                    <AnswerPlaceholder>
+                                      <option name="hint" value="" />
+                                      <option name="index" value="5" />
+                                      <option name="initialState">
+                                        <MyInitialState>
+                                          <option name="myLine" value="20" />
+                                          <option name="myLength" value="26" />
+                                          <option name="myStart" value="53" />
+                                        </MyInitialState>
+                                      </option>
+                                      <option name="length" value="11" />
+                                      <option name="line" value="20" />
+                                      <option name="possibleAnswer" value="__setattr__" />
+                                      <option name="start" value="53" />
+                                      <option name="taskText" />
+                                    </AnswerPlaceholder>
+                                  </list>
+                                </option>
+                                <option name="highlightErrors" value="true" />
+                                <option name="index" value="0" />
+                                <option name="trackChanges" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="name" value="task.py" />
+                                <option name="text" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                    </Task>
+                    <Task>
+                      <option name="index" value="5" />
+                      <option name="name" value="Class attributes and instance attributes" />
+                      <option name="stepicId" value="0" />
+                      <option name="text" />
+                      <option name="taskFiles">
+                        <map>
+                          <entry key="ClassAndInstanceAttr.py">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list>
+                                    <AnswerPlaceholder>
+                                      <option name="hint" value="" />
+                                      <option name="index" value="0" />
+                                      <option name="initialState">
+                                        <MyInitialState>
+                                          <option name="myLine" value="19" />
+                                          <option name="myLength" value="32" />
+                                          <option name="myStart" value="11" />
+                                        </MyInitialState>
+                                      </option>
+                                      <option name="length" value="14" />
+                                      <option name="line" value="19" />
+                                      <option name="possibleAnswer" value="Student(False)" />
+                                      <option name="start" value="11" />
+                                      <option name="taskText" />
+                                    </AnswerPlaceholder>
+                                    <AnswerPlaceholder>
+                                      <option name="hint" value="" />
+                                      <option name="index" value="1" />
+                                      <option name="initialState">
+                                        <MyInitialState>
+                                          <option name="myLine" value="23" />
+                                          <option name="myLength" value="16" />
+                                          <option name="myStart" value="11" />
+                                        </MyInitialState>
+                                      </option>
+                                      <option name="length" value="14" />
+                                      <option name="line" value="23" />
+                                      <option name="possibleAnswer" value="Student()" />
+                                      <option name="start" value="11" />
+                                      <option name="taskText" />
+                                    </AnswerPlaceholder>
+                                  </list>
+                                </option>
+                                <option name="highlightErrors" value="true" />
+                                <option name="index" value="0" />
+                                <option name="trackChanges" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="name" value="task.py" />
+                                <option name="text" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                    </Task>
+                  </list>
+                </option>
+              </Lesson>
+              <Lesson>
+                <option name="index" value="3" />
+                <option name="name" value="Deep into class methods" />
+                <option name="id" value="0" />
+                <option name="taskList">
+                  <list>
+                    <Task>
+                      <option name="index" value="1" />
+                      <option name="name" value="Method example" />
+                      <option name="stepicId" value="0" />
+                      <option name="text" />
+                      <option name="taskFiles">
+                        <map>
+                          <entry key="methodexample.py">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list>
+                                    <AnswerPlaceholder>
+                                      <option name="hint" value="" />
+                                      <option name="index" value="0" />
+                                      <option name="initialState">
+                                        <MyInitialState>
+                                          <option name="myLine" value="15" />
+                                          <option name="myLength" value="39" />
+                                          <option name="myStart" value="4" />
+                                        </MyInitialState>
+                                      </option>
+                                      <option name="length" value="39" />
+                                      <option name="line" value="15" />
+                                      <option name="possibleAnswer" value="def" />
+                                      <option name="start" value="4" />
+                                      <option name="taskText" />
+                                    </AnswerPlaceholder>
+                                    <AnswerPlaceholder>
+                                      <option name="hint" value="" />
+                                      <option name="index" value="1" />
+                                      <option name="initialState">
+                                        <MyInitialState>
+                                          <option name="myLine" value="15" />
+                                          <option name="myLength" value="19" />
+                                          <option name="myStart" value="44" />
+                                        </MyInitialState>
+                                      </option>
+                                      <option name="length" value="19" />
+                                      <option name="line" value="15" />
+                                      <option name="possibleAnswer" value="play_truant" />
+                                      <option name="start" value="44" />
+                                      <option name="taskText" />
+                                    </AnswerPlaceholder>
+                                    <AnswerPlaceholder>
+                                      <option name="hint" value="" />
+                                      <option name="index" value="2" />
+                                      <option name="initialState">
+                                        <MyInitialState>
+                                          <option name="myLine" value="15" />
+                                          <option name="myLength" value="17" />
+                                          <option name="myStart" value="64" />
+                                        </MyInitialState>
+                                      </option>
+                                      <option name="length" value="17" />
+                                      <option name="line" value="15" />
+                                      <option name="possibleAnswer" value="self" />
+                                      <option name="start" value="64" />
+                                      <option name="taskText" />
+                                    </AnswerPlaceholder>
+                                    <AnswerPlaceholder>
+                                      <option name="hint" value="" />
+                                      <option name="index" value="3" />
+                                      <option name="initialState">
+                                        <MyInitialState>
+                                          <option name="myLine" value="15" />
+                                          <option name="myLength" value="19" />
+                                          <option name="myStart" value="83" />
+                                        </MyInitialState>
+                                      </option>
+                                      <option name="length" value="19" />
+                                      <option name="line" value="15" />
+                                      <option name="possibleAnswer" value="victory_cry" />
+                                      <option name="start" value="83" />
+                                      <option name="taskText" />
+                                    </AnswerPlaceholder>
+                                    <AnswerPlaceholder>
+                                      <option name="hint" value="" />
+                                      <option name="index" value="4" />
+                                      <option name="initialState">
+                                        <MyInitialState>
+                                          <option name="myLine" value="16" />
+                                          <option name="myLength" value="19" />
+                                          <option name="myStart" value="14" />
+                                        </MyInitialState>
+                                      </option>
+                                      <option name="length" value="19" />
+                                      <option name="line" value="16" />
+                                      <option name="possibleAnswer" value="victory_cry" />
+                                      <option name="start" value="14" />
+                                      <option name="taskText" />
+                                    </AnswerPlaceholder>
+                                    <AnswerPlaceholder>
+                                      <option name="hint" value="" />
+                                      <option name="index" value="5" />
+                                      <option name="initialState">
+                                        <MyInitialState>
+                                          <option name="myLine" value="18" />
+                                          <option name="myLength" value="15" />
+                                          <option name="myStart" value="8" />
+                                        </MyInitialState>
+                                      </option>
+                                      <option name="length" value="15" />
+                                      <option name="line" value="18" />
+                                      <option name="possibleAnswer" value="play_truant" />
+                                      <option name="start" value="8" />
+                                      <option name="taskText" />
+                                    </AnswerPlaceholder>
+                                  </list>
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="index" value="0" />
+                                <option name="trackChanges" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="name" value="task.py" />
+                                <option name="text" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                    </Task>
+                    <Task>
+                      <option name="index" value="2" />
+                      <option name="name" value="Bound methods or functions?" />
+                      <option name="stepicId" value="0" />
+                      <option name="text" />
+                      <option name="taskFiles">
+                        <map>
+                          <entry key="bound_func.py">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list>
+                                    <AnswerPlaceholder>
+                                      <option name="hint" value="" />
+                                      <option name="index" value="0" />
+                                      <option name="initialState">
+                                        <MyInitialState>
+                                          <option name="myLine" value="20" />
+                                          <option name="myLength" value="5" />
+                                          <option name="myStart" value="36" />
+                                        </MyInitialState>
+                                      </option>
+                                      <option name="length" value="5" />
+                                      <option name="line" value="20" />
+                                      <option name="possibleAnswer" value="student" />
+                                      <option name="start" value="36" />
+                                      <option name="taskText" />
+                                    </AnswerPlaceholder>
+                                    <AnswerPlaceholder>
+                                      <option name="hint" value="" />
+                                      <option name="index" value="1" />
+                                      <option name="initialState">
+                                        <MyInitialState>
+                                          <option name="myLine" value="21" />
+                                          <option name="myLength" value="8" />
+                                          <option name="myStart" value="30" />
+                                        </MyInitialState>
+                                      </option>
+                                      <option name="length" value="8" />
+                                      <option name="line" value="21" />
+                                      <option name="possibleAnswer" value=" Student" />
+                                      <option name="start" value="30" />
+                                      <option name="taskText" />
+                                    </AnswerPlaceholder>
+                                  </list>
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="index" value="0" />
+                                <option name="trackChanges" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="name" value="task.py" />
+                                <option name="text" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                    </Task>
+                    <Task>
+                      <option name="index" value="3" />
+                      <option name="name" value="staticmethod vs classmethod" />
+                      <option name="stepicId" value="0" />
+                      <option name="text" />
+                      <option name="taskFiles">
+                        <map>
+                          <entry key="static_vs_class.py">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list>
+                                    <AnswerPlaceholder>
+                                      <option name="hint" value="" />
+                                      <option name="index" value="0" />
+                                      <option name="initialState">
+                                        <MyInitialState>
+                                          <option name="myLine" value="18" />
+                                          <option name="myLength" value="13" />
+                                          <option name="myStart" value="4" />
+                                        </MyInitialState>
+                                      </option>
+                                      <option name="length" value="13" />
+                                      <option name="line" value="18" />
+                                      <option name="possibleAnswer" value="@classmethod" />
+                                      <option name="start" value="4" />
+                                      <option name="taskText" />
+                                    </AnswerPlaceholder>
+                                    <AnswerPlaceholder>
+                                      <option name="hint" value="" />
+                                      <option name="index" value="1" />
+                                      <option name="initialState">
+                                        <MyInitialState>
+                                          <option name="myLine" value="22" />
+                                          <option name="myLength" value="13" />
+                                          <option name="myStart" value="4" />
+                                        </MyInitialState>
+                                      </option>
+                                      <option name="length" value="13" />
+                                      <option name="line" value="22" />
+                                      <option name="possibleAnswer" value="@staticmethod" />
+                                      <option name="start" value="4" />
+                                      <option name="taskText" />
+                                    </AnswerPlaceholder>
+                                  </list>
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="index" value="0" />
+                                <option name="trackChanges" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="name" value="task.py" />
+                                <option name="text" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                    </Task>
+                    <Task>
+                      <option name="index" value="4" />
+                      <option name="name" value="Iterators" />
+                      <option name="stepicId" value="0" />
+                      <option name="text" />
+                      <option name="taskFiles">
+                        <map>
+                          <entry key="iterator.py">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list>
+                                    <AnswerPlaceholder>
+                                      <option name="hint" value="" />
+                                      <option name="index" value="0" />
+                                      <option name="initialState">
+                                        <MyInitialState>
+                                          <option name="myLine" value="11" />
+                                          <option name="myLength" value="8" />
+                                          <option name="myStart" value="8" />
+                                        </MyInitialState>
+                                      </option>
+                                      <option name="length" value="8" />
+                                      <option name="line" value="11" />
+                                      <option name="possibleAnswer" value="__iter__" />
+                                      <option name="start" value="8" />
+                                      <option name="taskText" />
+                                    </AnswerPlaceholder>
+                                    <AnswerPlaceholder>
+                                      <option name="hint" value="" />
+                                      <option name="index" value="1" />
+                                      <option name="initialState">
+                                        <MyInitialState>
+                                          <option name="myLine" value="14" />
+                                          <option name="myLength" value="21" />
+                                          <option name="myStart" value="8" />
+                                        </MyInitialState>
+                                      </option>
+                                      <option name="length" value="21" />
+                                      <option name="line" value="14" />
+                                      <option name="possibleAnswer" value="__next__" />
+                                      <option name="start" value="8" />
+                                      <option name="taskText" />
+                                    </AnswerPlaceholder>
+                                  </list>
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="index" value="0" />
+                                <option name="trackChanges" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="name" value="task.py" />
+                                <option name="text" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                    </Task>
+                  </list>
+                </option>
+              </Lesson>
+              <Lesson>
+                <option name="index" value="4" />
+                <option name="name" value="Polimorphism, incapsulations, inheritance" />
+                <option name="id" value="0" />
+                <option name="taskList">
+                  <list>
+                    <Task>
+                      <option name="index" value="1" />
+                      <option name="name" value="Polimorphism in classes" />
+                      <option name="stepicId" value="0" />
+                      <option name="text" />
+                      <option name="taskFiles">
+                        <map>
+                          <entry key="polimorphism.py">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list>
+                                    <AnswerPlaceholder>
+                                      <option name="hint" value="" />
+                                      <option name="index" value="0" />
+                                      <option name="initialState">
+                                        <MyInitialState>
+                                          <option name="myLine" value="26" />
+                                          <option name="myLength" value="34" />
+                                          <option name="myStart" value="7" />
+                                        </MyInitialState>
+                                      </option>
+                                      <option name="length" value="34" />
+                                      <option name="line" value="26" />
+                                      <option name="possibleAnswer" value="isinstance" />
+                                      <option name="start" value="7" />
+                                      <option name="taskText" />
+                                    </AnswerPlaceholder>
+                                    <AnswerPlaceholder>
+                                      <option name="hint" value="" />
+                                      <option name="index" value="1" />
+                                      <option name="initialState">
+                                        <MyInitialState>
+                                          <option name="myLine" value="31" />
+                                          <option name="myLength" value="16" />
+                                          <option name="myStart" value="8" />
+                                        </MyInitialState>
+                                      </option>
+                                      <option name="length" value="16" />
+                                      <option name="line" value="31" />
+                                      <option name="possibleAnswer" value="__init__" />
+                                      <option name="start" value="8" />
+                                      <option name="taskText" />
+                                    </AnswerPlaceholder>
+                                  </list>
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="index" value="0" />
+                                <option name="trackChanges" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="name" value="task.py" />
+                                <option name="text" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                    </Task>
+                    <Task>
+                      <option name="index" value="2" />
+                      <option name="name" value="Encapsulation" />
+                      <option name="stepicId" value="0" />
+                      <option name="text" />
+                      <option name="taskFiles">
+                        <map>
+                          <entry key="incapsulation.py">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list>
+                                    <AnswerPlaceholder>
+                                      <option name="hint" value="" />
+                                      <option name="index" value="0" />
+                                      <option name="initialState">
+                                        <MyInitialState>
+                                          <option name="myLine" value="13" />
+                                          <option name="myLength" value="17" />
+                                          <option name="myStart" value="15" />
+                                        </MyInitialState>
+                                      </option>
+                                      <option name="length" value="17" />
+                                      <option name="line" value="13" />
+                                      <option name="possibleAnswer" value="_cookies" />
+                                      <option name="start" value="15" />
+                                      <option name="taskText" />
+                                    </AnswerPlaceholder>
+                                    <AnswerPlaceholder>
+                                      <option name="hint" value="" />
+                                      <option name="index" value="1" />
+                                      <option name="initialState">
+                                        <MyInitialState>
+                                          <option name="myLine" value="14" />
+                                          <option name="myLength" value="16" />
+                                          <option name="myStart" value="15" />
+                                        </MyInitialState>
+                                      </option>
+                                      <option name="length" value="16" />
+                                      <option name="line" value="14" />
+                                      <option name="possibleAnswer" value="_Student__coffee" />
+                                      <option name="start" value="15" />
+                                      <option name="taskText" />
+                                    </AnswerPlaceholder>
+                                  </list>
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="index" value="0" />
+                                <option name="trackChanges" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="name" value="task.py" />
+                                <option name="text" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                    </Task>
+                    <Task>
+                      <option name="index" value="3" />
+                      <option name="name" value="inheritance" />
+                      <option name="stepicId" value="0" />
+                      <option name="text" />
+                      <option name="taskFiles">
+                        <map>
+                          <entry key="inheritance.py">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list>
+                                    <AnswerPlaceholder>
+                                      <option name="hint" value="" />
+                                      <option name="index" value="0" />
+                                      <option name="initialState">
+                                        <MyInitialState>
+                                          <option name="myLine" value="19" />
+                                          <option name="myLength" value="22" />
+                                          <option name="myStart" value="21" />
+                                        </MyInitialState>
+                                      </option>
+                                      <option name="length" value="22" />
+                                      <option name="line" value="19" />
+                                      <option name="possibleAnswer" value="Student" />
+                                      <option name="start" value="21" />
+                                      <option name="taskText" />
+                                    </AnswerPlaceholder>
+                                    <AnswerPlaceholder>
+                                      <option name="hint" value="" />
+                                      <option name="index" value="1" />
+                                      <option name="initialState">
+                                        <MyInitialState>
+                                          <option name="myLine" value="21" />
+                                          <option name="myLength" value="18" />
+                                          <option name="myStart" value="8" />
+                                        </MyInitialState>
+                                      </option>
+                                      <option name="length" value="18" />
+                                      <option name="line" value="21" />
+                                      <option name="possibleAnswer" value="sleep_sweety" />
+                                      <option name="start" value="8" />
+                                      <option name="taskText" />
+                                    </AnswerPlaceholder>
+                                    <AnswerPlaceholder>
+                                      <option name="hint" value="" />
+                                      <option name="index" value="2" />
+                                      <option name="initialState">
+                                        <MyInitialState>
+                                          <option name="myLine" value="26" />
+                                          <option name="myLength" value="18" />
+                                          <option name="myStart" value="8" />
+                                        </MyInitialState>
+                                      </option>
+                                      <option name="length" value="18" />
+                                      <option name="line" value="26" />
+                                      <option name="possibleAnswer" value="super" />
+                                      <option name="start" value="8" />
+                                      <option name="taskText" />
+                                    </AnswerPlaceholder>
+                                    <AnswerPlaceholder>
+                                      <option name="hint" value="" />
+                                      <option name="index" value="3" />
+                                      <option name="initialState">
+                                        <MyInitialState>
+                                          <option name="myLine" value="26" />
+                                          <option name="myLength" value="10" />
+                                          <option name="myStart" value="27" />
+                                        </MyInitialState>
+                                      </option>
+                                      <option name="length" value="10" />
+                                      <option name="line" value="26" />
+                                      <option name="possibleAnswer" value="StudentOfRadik" />
+                                      <option name="start" value="27" />
+                                      <option name="taskText" />
+                                    </AnswerPlaceholder>
+                                    <AnswerPlaceholder>
+                                      <option name="hint" value="" />
+                                      <option name="index" value="4" />
+                                      <option name="initialState">
+                                        <MyInitialState>
+                                          <option name="myLine" value="26" />
+                                          <option name="myLength" value="12" />
+                                          <option name="myStart" value="45" />
+                                        </MyInitialState>
+                                      </option>
+                                      <option name="length" value="12" />
+                                      <option name="line" value="26" />
+                                      <option name="possibleAnswer" value="play_truant" />
+                                      <option name="start" value="45" />
+                                      <option name="taskText" />
+                                    </AnswerPlaceholder>
+                                  </list>
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="index" value="0" />
+                                <option name="trackChanges" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="name" value="task.py" />
+                                <option name="text" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                    </Task>
+                  </list>
+                </option>
+              </Lesson>
+              <Lesson>
+                <option name="index" value="5" />
+                <option name="name" value="Interesting things in Python classes" />
+                <option name="id" value="0" />
+                <option name="taskList">
+                  <list>
+                    <Task>
+                      <option name="index" value="1" />
+                      <option name="name" value="singleton" />
+                      <option name="stepicId" value="0" />
+                      <option name="text" />
+                      <option name="taskFiles">
+                        <map>
+                          <entry key="singleton.py">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list>
+                                    <AnswerPlaceholder>
+                                      <option name="hint" value="" />
+                                      <option name="index" value="0" />
+                                      <option name="initialState">
+                                        <MyInitialState>
+                                          <option name="myLine" value="4" />
+                                          <option name="myLength" value="26" />
+                                          <option name="myStart" value="8" />
+                                        </MyInitialState>
+                                      </option>
+                                      <option name="length" value="26" />
+                                      <option name="line" value="4" />
+                                      <option name="possibleAnswer" value="__new__" />
+                                      <option name="start" value="8" />
+                                      <option name="taskText" />
+                                    </AnswerPlaceholder>
+                                    <AnswerPlaceholder>
+                                      <option name="hint" value="" />
+                                      <option name="index" value="1" />
+                                      <option name="initialState">
+                                        <MyInitialState>
+                                          <option name="myLine" value="5" />
+                                          <option name="myLength" value="20" />
+                                          <option name="myStart" value="15" />
+                                        </MyInitialState>
+                                      </option>
+                                      <option name="length" value="20" />
+                                      <option name="line" value="5" />
+                                      <option name="possibleAnswer" value="hasattr" />
+                                      <option name="start" value="15" />
+                                      <option name="taskText" />
+                                    </AnswerPlaceholder>
+                                    <AnswerPlaceholder>
+                                      <option name="hint" value="" />
+                                      <option name="index" value="2" />
+                                      <option name="initialState">
+                                        <MyInitialState>
+                                          <option name="myLine" value="6" />
+                                          <option name="myLength" value="26" />
+                                          <option name="myStart" value="19" />
+                                        </MyInitialState>
+                                      </option>
+                                      <option name="length" value="26" />
+                                      <option name="line" value="6" />
+                                      <option name="possibleAnswer" value="super" />
+                                      <option name="start" value="19" />
+                                      <option name="taskText" />
+                                    </AnswerPlaceholder>
+                                    <AnswerPlaceholder>
+                                      <option name="hint" value="" />
+                                      <option name="index" value="3" />
+                                      <option name="initialState">
+                                        <MyInitialState>
+                                          <option name="myLine" value="10" />
+                                          <option name="myLength" value="17" />
+                                          <option name="myStart" value="8" />
+                                        </MyInitialState>
+                                      </option>
+                                      <option name="length" value="17" />
+                                      <option name="line" value="10" />
+                                      <option name="possibleAnswer" value="__init__" />
+                                      <option name="start" value="8" />
+                                      <option name="taskText" />
+                                    </AnswerPlaceholder>
+                                    <AnswerPlaceholder>
+                                      <option name="hint" value="" />
+                                      <option name="index" value="4" />
+                                      <option name="initialState">
+                                        <MyInitialState>
+                                          <option name="myLine" value="15" />
+                                          <option name="myLength" value="13" />
+                                          <option name="myStart" value="6" />
+                                        </MyInitialState>
+                                      </option>
+                                      <option name="length" value="13" />
+                                      <option name="line" value="15" />
+                                      <option name="possibleAnswer" value="id" />
+                                      <option name="start" value="6" />
+                                      <option name="taskText" />
+                                    </AnswerPlaceholder>
+                                    <AnswerPlaceholder>
+                                      <option name="hint" value="" />
+                                      <option name="index" value="5" />
+                                      <option name="initialState">
+                                        <MyInitialState>
+                                          <option name="myLine" value="15" />
+                                          <option name="myLength" value="13" />
+                                          <option name="myStart" value="38" />
+                                        </MyInitialState>
+                                      </option>
+                                      <option name="length" value="13" />
+                                      <option name="line" value="15" />
+                                      <option name="possibleAnswer" value="id" />
+                                      <option name="start" value="38" />
+                                      <option name="taskText" />
+                                    </AnswerPlaceholder>
+                                  </list>
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="index" value="0" />
+                                <option name="trackChanges" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="name" value="task.py" />
+                                <option name="text" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                    </Task>
+                    <Task>
+                      <option name="index" value="2" />
+                      <option name="name" value="slots" />
+                      <option name="stepicId" value="0" />
+                      <option name="text" />
+                      <option name="taskFiles">
+                        <map>
+                          <entry key="slots.py">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list>
+                                    <AnswerPlaceholder>
+                                      <option name="hint" value="" />
+                                      <option name="index" value="0" />
+                                      <option name="initialState">
+                                        <MyInitialState>
+                                          <option name="myLine" value="4" />
+                                          <option name="myLength" value="4" />
+                                          <option name="myStart" value="4" />
+                                        </MyInitialState>
+                                      </option>
+                                      <option name="length" value="4" />
+                                      <option name="line" value="4" />
+                                      <option name="possibleAnswer" value="__slots__" />
+                                      <option name="start" value="4" />
+                                      <option name="taskText" />
+                                    </AnswerPlaceholder>
+                                    <AnswerPlaceholder>
+                                      <option name="hint" value="" />
+                                      <option name="index" value="1" />
+                                      <option name="initialState">
+                                        <MyInitialState>
+                                          <option name="myLine" value="4" />
+                                          <option name="myLength" value="19" />
+                                          <option name="myStart" value="13" />
+                                        </MyInitialState>
+                                      </option>
+                                      <option name="length" value="19" />
+                                      <option name="line" value="4" />
+                                      <option name="possibleAnswer" value="debts_count" />
+                                      <option name="start" value="13" />
+                                      <option name="taskText" />
+                                    </AnswerPlaceholder>
+                                    <AnswerPlaceholder>
+                                      <option name="hint" value="" />
+                                      <option name="index" value="2" />
+                                      <option name="initialState">
+                                        <MyInitialState>
+                                          <option name="myLine" value="4" />
+                                          <option name="myLength" value="20" />
+                                          <option name="myStart" value="36" />
+                                        </MyInitialState>
+                                      </option>
+                                      <option name="length" value="20" />
+                                      <option name="line" value="4" />
+                                      <option name="possibleAnswer" value="desire_to_learn" />
+                                      <option name="start" value="36" />
+                                      <option name="taskText" />
+                                    </AnswerPlaceholder>
+                                  </list>
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="index" value="0" />
+                                <option name="trackChanges" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="name" value="task.py" />
+                                <option name="text" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                    </Task>
+                    <Task>
+                      <option name="index" value="3" />
+                      <option name="name" value="functor" />
+                      <option name="stepicId" value="0" />
+                      <option name="text" />
+                      <option name="taskFiles">
+                        <map>
+                          <entry key="functor.py">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list>
+                                    <AnswerPlaceholder>
+                                      <option name="hint" value="" />
+                                      <option name="index" value="0" />
+                                      <option name="initialState">
+                                        <MyInitialState>
+                                          <option name="myLine" value="9" />
+                                          <option name="myLength" value="4" />
+                                          <option name="myStart" value="8" />
+                                        </MyInitialState>
+                                      </option>
+                                      <option name="length" value="4" />
+                                      <option name="line" value="9" />
+                                      <option name="possibleAnswer" value="__call__" />
+                                      <option name="start" value="8" />
+                                      <option name="taskText" />
+                                    </AnswerPlaceholder>
+                                    <AnswerPlaceholder>
+                                      <option name="hint" value="" />
+                                      <option name="index" value="1" />
+                                      <option name="initialState">
+                                        <MyInitialState>
+                                          <option name="myLine" value="13" />
+                                          <option name="myLength" value="7" />
+                                          <option name="myStart" value="6" />
+                                        </MyInitialState>
+                                      </option>
+                                      <option name="length" value="7" />
+                                      <option name="line" value="13" />
+                                      <option name="possibleAnswer" value="student" />
+                                      <option name="start" value="6" />
+                                      <option name="taskText" />
+                                    </AnswerPlaceholder>
+                                  </list>
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="index" value="0" />
+                                <option name="trackChanges" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="name" value="task.py" />
+                                <option name="text" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                    </Task>
+                    <Task>
+                      <option name="index" value="4" />
+                      <option name="name" value="descriptor" />
+                      <option name="stepicId" value="0" />
+                      <option name="text" />
+                      <option name="taskFiles">
+                        <map>
+                          <entry key="descriptor.py">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list>
+                                    <AnswerPlaceholder>
+                                      <option name="hint" value="" />
+                                      <option name="index" value="0" />
+                                      <option name="initialState">
+                                        <MyInitialState>
+                                          <option name="myLine" value="0" />
+                                          <option name="myLength" value="18" />
+                                          <option name="myStart" value="6" />
+                                        </MyInitialState>
+                                      </option>
+                                      <option name="length" value="18" />
+                                      <option name="line" value="0" />
+                                      <option name="possibleAnswer" value="FridgeStorage" />
+                                      <option name="start" value="6" />
+                                      <option name="taskText" />
+                                    </AnswerPlaceholder>
+                                    <AnswerPlaceholder>
+                                      <option name="hint" value="" />
+                                      <option name="index" value="1" />
+                                      <option name="initialState">
+                                        <MyInitialState>
+                                          <option name="myLine" value="1" />
+                                          <option name="myLength" value="5" />
+                                          <option name="myStart" value="2" />
+                                        </MyInitialState>
+                                      </option>
+                                      <option name="length" value="5" />
+                                      <option name="line" value="1" />
+                                      <option name="possibleAnswer" value="__slots__" />
+                                      <option name="start" value="2" />
+                                      <option name="taskText" />
+                                    </AnswerPlaceholder>
+                                    <AnswerPlaceholder>
+                                      <option name="hint" value="" />
+                                      <option name="index" value="2" />
+                                      <option name="initialState">
+                                        <MyInitialState>
+                                          <option name="myLine" value="7" />
+                                          <option name="myLength" value="3" />
+                                          <option name="myStart" value="6" />
+                                        </MyInitialState>
+                                      </option>
+                                      <option name="length" value="3" />
+                                      <option name="line" value="7" />
+                                      <option name="possibleAnswer" value="__set__" />
+                                      <option name="start" value="6" />
+                                      <option name="taskText" />
+                                    </AnswerPlaceholder>
+                                    <AnswerPlaceholder>
+                                      <option name="hint" value="" />
+                                      <option name="index" value="3" />
+                                      <option name="initialState">
+                                        <MyInitialState>
+                                          <option name="myLine" value="10" />
+                                          <option name="myLength" value="3" />
+                                          <option name="myStart" value="6" />
+                                        </MyInitialState>
+                                      </option>
+                                      <option name="length" value="3" />
+                                      <option name="line" value="10" />
+                                      <option name="possibleAnswer" value="__get__" />
+                                      <option name="start" value="6" />
+                                      <option name="taskText" />
+                                    </AnswerPlaceholder>
+                                    <AnswerPlaceholder>
+                                      <option name="hint" value="" />
+                                      <option name="index" value="4" />
+                                      <option name="initialState">
+                                        <MyInitialState>
+                                          <option name="myLine" value="22" />
+                                          <option name="myLength" value="18" />
+                                          <option name="myStart" value="16" />
+                                        </MyInitialState>
+                                      </option>
+                                      <option name="length" value="18" />
+                                      <option name="line" value="22" />
+                                      <option name="possibleAnswer" value="FridgeStorage" />
+                                      <option name="start" value="16" />
+                                      <option name="taskText" />
+                                    </AnswerPlaceholder>
+                                  </list>
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="index" value="0" />
+                                <option name="trackChanges" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="name" value="task.py" />
+                                <option name="text" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                    </Task>
+                    <Task>
+                      <option name="index" value="5" />
+                      <option name="name" value="new vs init" />
+                      <option name="stepicId" value="0" />
+                      <option name="text" />
+                      <option name="taskFiles">
+                        <map>
+                          <entry key="new_vs_init.py">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list>
+                                    <AnswerPlaceholder>
+                                      <option name="hint" value="" />
+                                      <option name="index" value="0" />
+                                      <option name="initialState">
+                                        <MyInitialState>
+                                          <option name="myLine" value="4" />
+                                          <option name="myLength" value="10" />
+                                          <option name="myStart" value="8" />
+                                        </MyInitialState>
+                                      </option>
+                                      <option name="length" value="10" />
+                                      <option name="line" value="4" />
+                                      <option name="possibleAnswer" value="__new__" />
+                                      <option name="start" value="8" />
+                                      <option name="taskText" />
+                                    </AnswerPlaceholder>
+                                    <AnswerPlaceholder>
+                                      <option name="hint" value="" />
+                                      <option name="index" value="1" />
+                                      <option name="initialState">
+                                        <MyInitialState>
+                                          <option name="myLine" value="4" />
+                                          <option name="myLength" value="27" />
+                                          <option name="myStart" value="19" />
+                                        </MyInitialState>
+                                      </option>
+                                      <option name="length" value="27" />
+                                      <option name="line" value="4" />
+                                      <option name="possibleAnswer" value="cls" />
+                                      <option name="start" value="19" />
+                                      <option name="taskText" />
+                                    </AnswerPlaceholder>
+                                    <AnswerPlaceholder>
+                                      <option name="hint" value="" />
+                                      <option name="index" value="2" />
+                                      <option name="initialState">
+                                        <MyInitialState>
+                                          <option name="myLine" value="5" />
+                                          <option name="myLength" value="27" />
+                                          <option name="myStart" value="23" />
+                                        </MyInitialState>
+                                      </option>
+                                      <option name="length" value="27" />
+                                      <option name="line" value="5" />
+                                      <option name="possibleAnswer" value="cls" />
+                                      <option name="start" value="23" />
+                                      <option name="taskText" />
+                                    </AnswerPlaceholder>
+                                    <AnswerPlaceholder>
+                                      <option name="hint" value="" />
+                                      <option name="index" value="3" />
+                                      <option name="initialState">
+                                        <MyInitialState>
+                                          <option name="myLine" value="6" />
+                                          <option name="myLength" value="28" />
+                                          <option name="myStart" value="19" />
+                                        </MyInitialState>
+                                      </option>
+                                      <option name="length" value="28" />
+                                      <option name="line" value="6" />
+                                      <option name="possibleAnswer" value="super" />
+                                      <option name="start" value="19" />
+                                      <option name="taskText" />
+                                    </AnswerPlaceholder>
+                                    <AnswerPlaceholder>
+                                      <option name="hint" value="" />
+                                      <option name="index" value="4" />
+                                      <option name="initialState">
+                                        <MyInitialState>
+                                          <option name="myLine" value="6" />
+                                          <option name="myLength" value="11" />
+                                          <option name="myStart" value="48" />
+                                        </MyInitialState>
+                                      </option>
+                                      <option name="length" value="11" />
+                                      <option name="line" value="6" />
+                                      <option name="possibleAnswer" value="Student" />
+                                      <option name="start" value="48" />
+                                      <option name="taskText" />
+                                    </AnswerPlaceholder>
+                                    <AnswerPlaceholder>
+                                      <option name="hint" value="" />
+                                      <option name="index" value="5" />
+                                      <option name="initialState">
+                                        <MyInitialState>
+                                          <option name="myLine" value="6" />
+                                          <option name="myLength" value="27" />
+                                          <option name="myStart" value="61" />
+                                        </MyInitialState>
+                                      </option>
+                                      <option name="length" value="27" />
+                                      <option name="line" value="6" />
+                                      <option name="possibleAnswer" value="cls" />
+                                      <option name="start" value="61" />
+                                      <option name="taskText" />
+                                    </AnswerPlaceholder>
+                                    <AnswerPlaceholder>
+                                      <option name="hint" value="" />
+                                      <option name="index" value="6" />
+                                      <option name="initialState">
+                                        <MyInitialState>
+                                          <option name="myLine" value="7" />
+                                          <option name="myLength" value="27" />
+                                          <option name="myStart" value="12" />
+                                        </MyInitialState>
+                                      </option>
+                                      <option name="length" value="27" />
+                                      <option name="line" value="7" />
+                                      <option name="possibleAnswer" value="cls" />
+                                      <option name="start" value="12" />
+                                      <option name="taskText" />
+                                    </AnswerPlaceholder>
+                                    <AnswerPlaceholder>
+                                      <option name="hint" value="" />
+                                      <option name="index" value="7" />
+                                      <option name="initialState">
+                                        <MyInitialState>
+                                          <option name="myLine" value="7" />
+                                          <option name="myLength" value="10" />
+                                          <option name="myStart" value="57" />
+                                        </MyInitialState>
+                                      </option>
+                                      <option name="length" value="10" />
+                                      <option name="line" value="7" />
+                                      <option name="possibleAnswer" value="__new__" />
+                                      <option name="start" value="57" />
+                                      <option name="taskText" />
+                                    </AnswerPlaceholder>
+                                    <AnswerPlaceholder>
+                                      <option name="hint" value="" />
+                                      <option name="index" value="8" />
+                                      <option name="initialState">
+                                        <MyInitialState>
+                                          <option name="myLine" value="7" />
+                                          <option name="myLength" value="27" />
+                                          <option name="myStart" value="68" />
+                                        </MyInitialState>
+                                      </option>
+                                      <option name="length" value="27" />
+                                      <option name="line" value="7" />
+                                      <option name="possibleAnswer" value="cls" />
+                                      <option name="start" value="68" />
+                                      <option name="taskText" />
+                                    </AnswerPlaceholder>
+                                    <AnswerPlaceholder>
+                                      <option name="hint" value="" />
+                                      <option name="index" value="9" />
+                                      <option name="initialState">
+                                        <MyInitialState>
+                                          <option name="myLine" value="8" />
+                                          <option name="myLength" value="10" />
+                                          <option name="myStart" value="8" />
+                                        </MyInitialState>
+                                      </option>
+                                      <option name="length" value="10" />
+                                      <option name="line" value="8" />
+                                      <option name="possibleAnswer" value="return" />
+                                      <option name="start" value="8" />
+                                      <option name="taskText" />
+                                    </AnswerPlaceholder>
+                                    <AnswerPlaceholder>
+                                      <option name="hint" value="" />
+                                      <option name="index" value="10" />
+                                      <option name="initialState">
+                                        <MyInitialState>
+                                          <option name="myLine" value="8" />
+                                          <option name="myLength" value="27" />
+                                          <option name="myStart" value="19" />
+                                        </MyInitialState>
+                                      </option>
+                                      <option name="length" value="27" />
+                                      <option name="line" value="8" />
+                                      <option name="possibleAnswer" value="cls" />
+                                      <option name="start" value="19" />
+                                      <option name="taskText" />
+                                    </AnswerPlaceholder>
+                                    <AnswerPlaceholder>
+                                      <option name="hint" value="" />
+                                      <option name="index" value="11" />
+                                      <option name="initialState">
+                                        <MyInitialState>
+                                          <option name="myLine" value="10" />
+                                          <option name="myLength" value="15" />
+                                          <option name="myStart" value="8" />
+                                        </MyInitialState>
+                                      </option>
+                                      <option name="length" value="15" />
+                                      <option name="line" value="10" />
+                                      <option name="possibleAnswer" value="__init__" />
+                                      <option name="start" value="8" />
+                                      <option name="taskText" />
+                                    </AnswerPlaceholder>
+                                    <AnswerPlaceholder>
+                                      <option name="hint" value="" />
+                                      <option name="index" value="12" />
+                                      <option name="initialState">
+                                        <MyInitialState>
+                                          <option name="myLine" value="10" />
+                                          <option name="myLength" value="12" />
+                                          <option name="myStart" value="24" />
+                                        </MyInitialState>
+                                      </option>
+                                      <option name="length" value="12" />
+                                      <option name="line" value="10" />
+                                      <option name="possibleAnswer" value="self" />
+                                      <option name="start" value="24" />
+                                      <option name="taskText" />
+                                    </AnswerPlaceholder>
+                                    <AnswerPlaceholder>
+                                      <option name="hint" value="" />
+                                      <option name="index" value="13" />
+                                      <option name="initialState">
+                                        <MyInitialState>
+                                          <option name="myLine" value="11" />
+                                          <option name="myLength" value="12" />
+                                          <option name="myStart" value="8" />
+                                        </MyInitialState>
+                                      </option>
+                                      <option name="length" value="12" />
+                                      <option name="line" value="11" />
+                                      <option name="possibleAnswer" value="self" />
+                                      <option name="start" value="8" />
+                                      <option name="taskText" />
+                                    </AnswerPlaceholder>
+                                  </list>
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="index" value="0" />
+                                <option name="trackChanges" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="name" value="task.py" />
+                                <option name="text" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                    </Task>
+                  </list>
+                </option>
+              </Lesson>
+            </list>
+          </option>
+          <option name="name" value="pythons_oop" />
+          <option name="upToDate" value="true" />
+        </Course>
+      </option>
+      <option name="oldCourse" />
+      <option name="VERSION" value="2" />
+      <option name="myStudyStatusMap">
+        <map>
+          <entry value="Solved">
+            <key>
+              <AnswerPlaceholder>
+                <option name="hint" value="" />
+                <option name="index" value="4" />
+                <option name="initialState">
+                  <MyInitialState>
+                    <option name="myLine" value="16" />
+                    <option name="myLength" value="9" />
+                    <option name="myStart" value="49" />
+                  </MyInitialState>
+                </option>
+                <option name="length" value="7" />
+                <option name="line" value="16" />
+                <option name="possibleAnswer" value="__doc__" />
+                <option name="start" value="49" />
+                <option name="taskText" />
+              </AnswerPlaceholder>
+            </key>
+          </entry>
+          <entry value="Unchecked">
+            <key>
+              <AnswerPlaceholder>
+                <option name="hint" value="" />
+                <option name="index" value="0" />
+                <option name="initialState">
+                  <MyInitialState>
+                    <option name="myLine" value="20" />
+                    <option name="myLength" value="5" />
+                    <option name="myStart" value="36" />
+                  </MyInitialState>
+                </option>
+                <option name="length" value="5" />
+                <option name="line" value="20" />
+                <option name="possibleAnswer" value="student" />
+                <option name="start" value="36" />
+                <option name="taskText" />
+              </AnswerPlaceholder>
+            </key>
+          </entry>
+          <entry value="Unchecked">
+            <key>
+              <AnswerPlaceholder>
+                <option name="hint" value="" />
+                <option name="index" value="0" />
+                <option name="initialState">
+                  <MyInitialState>
+                    <option name="myLine" value="15" />
+                    <option name="myLength" value="39" />
+                    <option name="myStart" value="4" />
+                  </MyInitialState>
+                </option>
+                <option name="length" value="39" />
+                <option name="line" value="15" />
+                <option name="possibleAnswer" value="def" />
+                <option name="start" value="4" />
+                <option name="taskText" />
+              </AnswerPlaceholder>
+            </key>
+          </entry>
+          <entry value="Solved">
+            <key>
+              <AnswerPlaceholder>
+                <option name="hint" value="" />
+                <option name="index" value="0" />
+                <option name="initialState">
+                  <MyInitialState>
+                    <option name="myLine" value="12" />
+                    <option name="myLength" value="4" />
+                    <option name="myStart" value="44" />
+                  </MyInitialState>
+                </option>
+                <option name="length" value="8" />
+                <option name="line" value="12" />
+                <option name="possibleAnswer" value="__name__" />
+                <option name="start" value="44" />
+                <option name="taskText" />
+              </AnswerPlaceholder>
+            </key>
+          </entry>
+          <entry value="Solved">
+            <key>
+              <AnswerPlaceholder>
+                <option name="hint" value="" />
+                <option name="index" value="0" />
+                <option name="initialState">
+                  <MyInitialState>
+                    <option name="myLine" value="6" />
+                    <option name="myLength" value="14" />
+                    <option name="myStart" value="8" />
+                  </MyInitialState>
+                </option>
+                <option name="length" value="16" />
+                <option name="line" value="6" />
+                <option name="possibleAnswer" value="pass_one_subject" />
+                <option name="start" value="8" />
+                <option name="taskText" />
+              </AnswerPlaceholder>
+            </key>
+          </entry>
+          <entry value="Unchecked">
+            <key>
+              <AnswerPlaceholder>
+                <option name="hint" value="" />
+                <option name="index" value="0" />
+                <option name="initialState">
+                  <MyInitialState>
+                    <option name="myLine" value="0" />
+                    <option name="myLength" value="18" />
+                    <option name="myStart" value="6" />
+                  </MyInitialState>
+                </option>
+                <option name="length" value="18" />
+                <option name="line" value="0" />
+                <option name="possibleAnswer" value="FridgeStorage" />
+                <option name="start" value="6" />
+                <option name="taskText" />
+              </AnswerPlaceholder>
+            </key>
+          </entry>
+          <entry value="Solved">
+            <key>
+              <AnswerPlaceholder>
+                <option name="hint" value="" />
+                <option name="index" value="0" />
+                <option name="initialState">
+                  <MyInitialState>
+                    <option name="myLine" value="1" />
+                    <option name="myLength" value="0" />
+                    <option name="myStart" value="7" />
+                  </MyInitialState>
+                </option>
+                <option name="length" value="3" />
+                <option name="line" value="1" />
+                <option name="possibleAnswer" value="          " />
+                <option name="start" value="7" />
+                <option name="taskText" />
+              </AnswerPlaceholder>
+            </key>
+          </entry>
+          <entry value="Unchecked">
+            <key>
+              <AnswerPlaceholder>
+                <option name="hint" value="" />
+                <option name="index" value="0" />
+                <option name="initialState">
+                  <MyInitialState>
+                    <option name="myLine" value="4" />
+                    <option name="myLength" value="10" />
+                    <option name="myStart" value="8" />
+                  </MyInitialState>
+                </option>
+                <option name="length" value="10" />
+                <option name="line" value="4" />
+                <option name="possibleAnswer" value="__new__" />
+                <option name="start" value="8" />
+                <option name="taskText" />
+              </AnswerPlaceholder>
+            </key>
+          </entry>
+          <entry value="Solved">
+            <key>
+              <AnswerPlaceholder>
+                <option name="hint" value="" />
+                <option name="index" value="0" />
+                <option name="initialState">
+                  <MyInitialState>
+                    <option name="myLine" value="15" />
+                    <option name="myLength" value="26" />
+                    <option name="myStart" value="31" />
+                  </MyInitialState>
+                </option>
+                <option name="length" value="8" />
+                <option name="line" value="15" />
+                <option name="possibleAnswer" value="__init__" />
+                <option name="start" value="31" />
+                <option name="taskText" />
+              </AnswerPlaceholder>
+            </key>
+          </entry>
+          <entry value="Solved">
+            <key>
+              <AnswerPlaceholder>
+                <option name="hint" value="" />
+                <option name="index" value="1" />
+                <option name="initialState">
+                  <MyInitialState>
+                    <option name="myLine" value="23" />
+                    <option name="myLength" value="16" />
+                    <option name="myStart" value="11" />
+                  </MyInitialState>
+                </option>
+                <option name="length" value="14" />
+                <option name="line" value="23" />
+                <option name="possibleAnswer" value="Student()" />
+                <option name="start" value="11" />
+                <option name="taskText" />
+              </AnswerPlaceholder>
+            </key>
+          </entry>
+          <entry value="Solved">
+            <key>
+              <AnswerPlaceholder>
+                <option name="hint" value="" />
+                <option name="index" value="0" />
+                <option name="initialState">
+                  <MyInitialState>
+                    <option name="myLine" value="19" />
+                    <option name="myLength" value="16" />
+                    <option name="myStart" value="0" />
+                  </MyInitialState>
+                </option>
+                <option name="length" value="3" />
+                <option name="line" value="19" />
+                <option name="possibleAnswer" value="del" />
+                <option name="start" value="0" />
+                <option name="taskText" />
+              </AnswerPlaceholder>
+            </key>
+          </entry>
+          <entry value="Solved">
+            <key>
+              <AnswerPlaceholder>
+                <option name="hint" value="" />
+                <option name="index" value="3" />
+                <option name="initialState">
+                  <MyInitialState>
+                    <option name="myLine" value="18" />
+                    <option name="myLength" value="26" />
+                    <option name="myStart" value="65" />
+                  </MyInitialState>
+                </option>
+                <option name="length" value="8" />
+                <option name="line" value="18" />
+                <option name="possibleAnswer" value="__hash__" />
+                <option name="start" value="65" />
+                <option name="taskText" />
+              </AnswerPlaceholder>
+            </key>
+          </entry>
+          <entry value="Unchecked">
+            <key>
+              <AnswerPlaceholder>
+                <option name="hint" value="" />
+                <option name="index" value="0" />
+                <option name="initialState">
+                  <MyInitialState>
+                    <option name="myLine" value="4" />
+                    <option name="myLength" value="26" />
+                    <option name="myStart" value="8" />
+                  </MyInitialState>
+                </option>
+                <option name="length" value="26" />
+                <option name="line" value="4" />
+                <option name="possibleAnswer" value="__new__" />
+                <option name="start" value="8" />
+                <option name="taskText" />
+              </AnswerPlaceholder>
+            </key>
+          </entry>
+          <entry value="Solved">
+            <key>
+              <AnswerPlaceholder>
+                <option name="hint" value="" />
+                <option name="index" value="1" />
+                <option name="initialState">
+                  <MyInitialState>
+                    <option name="myLine" value="16" />
+                    <option name="myLength" value="26" />
+                    <option name="myStart" value="72" />
+                  </MyInitialState>
+                </option>
+                <option name="length" value="9" />
+                <option name="line" value="16" />
+                <option name="possibleAnswer" value="__class__" />
+                <option name="start" value="72" />
+                <option name="taskText" />
+              </AnswerPlaceholder>
+            </key>
+          </entry>
+          <entry value="Solved">
+            <key>
+              <AnswerPlaceholder>
+                <option name="hint" value="" />
+                <option name="index" value="1" />
+                <option name="initialState">
+                  <MyInitialState>
+                    <option name="myLine" value="13" />
+                    <option name="myLength" value="10" />
+                    <option name="myStart" value="34" />
+                  </MyInitialState>
+                </option>
+                <option name="length" value="10" />
+                <option name="line" value="13" />
+                <option name="possibleAnswer" value="__module__" />
+                <option name="start" value="34" />
+                <option name="taskText" />
+              </AnswerPlaceholder>
+            </key>
+          </entry>
+          <entry value="Solved">
+            <key>
+              <AnswerPlaceholder>
+                <option name="hint" value="" />
+                <option name="index" value="1" />
+                <option name="initialState">
+                  <MyInitialState>
+                    <option name="myLine" value="17" />
+                    <option name="myLength" value="23" />
+                    <option name="myStart" value="75" />
+                  </MyInitialState>
+                </option>
+                <option name="length" value="9" />
+                <option name="line" value="17" />
+                <option name="possibleAnswer" value="free_time" />
+                <option name="start" value="75" />
+                <option name="taskText" />
+              </AnswerPlaceholder>
+            </key>
+          </entry>
+          <entry value="Solved">
+            <key>
+              <AnswerPlaceholder>
+                <option name="hint" value="" />
+                <option name="index" value="0" />
+                <option name="initialState">
+                  <MyInitialState>
+                    <option name="myLine" value="16" />
+                    <option name="myLength" value="15" />
+                    <option name="myStart" value="0" />
+                  </MyInitialState>
+                </option>
+                <option name="length" value="7" />
+                <option name="line" value="16" />
+                <option name="possibleAnswer" value="student" />
+                <option name="start" value="0" />
+                <option name="taskText" />
+              </AnswerPlaceholder>
+            </key>
+          </entry>
+          <entry value="Solved">
+            <key>
+              <AnswerPlaceholder>
+                <option name="hint" value="" />
+                <option name="index" value="0" />
+                <option name="initialState">
+                  <MyInitialState>
+                    <option name="myLine" value="19" />
+                    <option name="myLength" value="32" />
+                    <option name="myStart" value="11" />
+                  </MyInitialState>
+                </option>
+                <option name="length" value="14" />
+                <option name="line" value="19" />
+                <option name="possibleAnswer" value="Student(False)" />
+                <option name="start" value="11" />
+                <option name="taskText" />
+              </AnswerPlaceholder>
+            </key>
+          </entry>
+          <entry value="Solved">
+            <key>
+              <AnswerPlaceholder>
+                <option name="hint" value="" />
+                <option name="index" value="1" />
+                <option name="initialState">
+                  <MyInitialState>
+                    <option name="myLine" value="17" />
+                    <option name="myLength" value="15" />
+                    <option name="myStart" value="0" />
+                  </MyInitialState>
+                </option>
+                <option name="length" value="7" />
+                <option name="line" value="17" />
+                <option name="possibleAnswer" value="student" />
+                <option name="start" value="0" />
+                <option name="taskText" />
+              </AnswerPlaceholder>
+            </key>
+          </entry>
+          <entry value="Solved">
+            <key>
+              <AnswerPlaceholder>
+                <option name="hint" value="" />
+                <option name="index" value="2" />
+                <option name="initialState">
+                  <MyInitialState>
+                    <option name="myLine" value="17" />
+                    <option name="myLength" value="26" />
+                    <option name="myStart" value="46" />
+                  </MyInitialState>
+                </option>
+                <option name="length" value="8" />
+                <option name="line" value="17" />
+                <option name="possibleAnswer" value="__dict__" />
+                <option name="start" value="46" />
+                <option name="taskText" />
+              </AnswerPlaceholder>
+            </key>
+          </entry>
+          <entry value="Unchecked">
+            <key>
+              <AnswerPlaceholder>
+                <option name="hint" value="" />
+                <option name="index" value="0" />
+                <option name="initialState">
+                  <MyInitialState>
+                    <option name="myLine" value="19" />
+                    <option name="myLength" value="22" />
+                    <option name="myStart" value="21" />
+                  </MyInitialState>
+                </option>
+                <option name="length" value="22" />
+                <option name="line" value="19" />
+                <option name="possibleAnswer" value="Student" />
+                <option name="start" value="21" />
+                <option name="taskText" />
+              </AnswerPlaceholder>
+            </key>
+          </entry>
+          <entry value="Solved">
+            <key>
+              <AnswerPlaceholder>
+                <option name="hint" value="" />
+                <option name="index" value="2" />
+                <option name="initialState">
+                  <MyInitialState>
+                    <option name="myLine" value="14" />
+                    <option name="myLength" value="10" />
+                    <option name="myStart" value="50" />
+                  </MyInitialState>
+                </option>
+                <option name="length" value="8" />
+                <option name="line" value="14" />
+                <option name="possibleAnswer" value="__dict__" />
+                <option name="start" value="50" />
+                <option name="taskText" />
+              </AnswerPlaceholder>
+            </key>
+          </entry>
+          <entry value="Unchecked">
+            <key>
+              <AnswerPlaceholder>
+                <option name="hint" value="" />
+                <option name="index" value="0" />
+                <option name="initialState">
+                  <MyInitialState>
+                    <option name="myLine" value="18" />
+                    <option name="myLength" value="13" />
+                    <option name="myStart" value="4" />
+                  </MyInitialState>
+                </option>
+                <option name="length" value="13" />
+                <option name="line" value="18" />
+                <option name="possibleAnswer" value="@classmethod" />
+                <option name="start" value="4" />
+                <option name="taskText" />
+              </AnswerPlaceholder>
+            </key>
+          </entry>
+          <entry value="Unchecked">
+            <key>
+              <AnswerPlaceholder>
+                <option name="hint" value="" />
+                <option name="index" value="0" />
+                <option name="initialState">
+                  <MyInitialState>
+                    <option name="myLine" value="4" />
+                    <option name="myLength" value="4" />
+                    <option name="myStart" value="4" />
+                  </MyInitialState>
+                </option>
+                <option name="length" value="4" />
+                <option name="line" value="4" />
+                <option name="possibleAnswer" value="__slots__" />
+                <option name="start" value="4" />
+                <option name="taskText" />
+              </AnswerPlaceholder>
+            </key>
+          </entry>
+          <entry value="Solved">
+            <key>
+              <AnswerPlaceholder>
+                <option name="hint" value="" />
+                <option name="index" value="4" />
+                <option name="initialState">
+                  <MyInitialState>
+                    <option name="myLine" value="19" />
+                    <option name="myLength" value="26" />
+                    <option name="myStart" value="39" />
+                  </MyInitialState>
+                </option>
+                <option name="length" value="11" />
+                <option name="line" value="19" />
+                <option name="possibleAnswer" value="__delattr__" />
+                <option name="start" value="39" />
+                <option name="taskText" />
+              </AnswerPlaceholder>
+            </key>
+          </entry>
+          <entry value="Solved">
+            <key>
+              <AnswerPlaceholder>
+                <option name="hint" value="" />
+                <option name="index" value="1" />
+                <option name="initialState">
+                  <MyInitialState>
+                    <option name="myLine" value="4" />
+                    <option name="myLength" value="18" />
+                    <option name="myStart" value="25" />
+                  </MyInitialState>
+                </option>
+                <option name="length" value="1" />
+                <option name="line" value="4" />
+                <option name="possibleAnswer" value="0" />
+                <option name="start" value="18" />
+                <option name="taskText" />
+              </AnswerPlaceholder>
+            </key>
+          </entry>
+          <entry value="Unchecked">
+            <key>
+              <AnswerPlaceholder>
+                <option name="hint" value="" />
+                <option name="index" value="0" />
+                <option name="initialState">
+                  <MyInitialState>
+                    <option name="myLine" value="26" />
+                    <option name="myLength" value="34" />
+                    <option name="myStart" value="7" />
+                  </MyInitialState>
+                </option>
+                <option name="length" value="34" />
+                <option name="line" value="26" />
+                <option name="possibleAnswer" value="isinstance" />
+                <option name="start" value="7" />
+                <option name="taskText" />
+              </AnswerPlaceholder>
+            </key>
+          </entry>
+          <entry value="Unchecked">
+            <key>
+              <AnswerPlaceholder>
+                <option name="hint" value="" />
+                <option name="index" value="0" />
+                <option name="initialState">
+                  <MyInitialState>
+                    <option name="myLine" value="13" />
+                    <option name="myLength" value="17" />
+                    <option name="myStart" value="15" />
+                  </MyInitialState>
+                </option>
+                <option name="length" value="17" />
+                <option name="line" value="13" />
+                <option name="possibleAnswer" value="_cookies" />
+                <option name="start" value="15" />
+                <option name="taskText" />
+              </AnswerPlaceholder>
+            </key>
+          </entry>
+          <entry value="Solved">
+            <key>
+              <AnswerPlaceholder>
+                <option name="hint" value="" />
+                <option name="index" value="5" />
+                <option name="initialState">
+                  <MyInitialState>
+                    <option name="myLine" value="20" />
+                    <option name="myLength" value="26" />
+                    <option name="myStart" value="53" />
+                  </MyInitialState>
+                </option>
+                <option name="length" value="11" />
+                <option name="line" value="20" />
+                <option name="possibleAnswer" value="__setattr__" />
+                <option name="start" value="53" />
+                <option name="taskText" />
+              </AnswerPlaceholder>
+            </key>
+          </entry>
+          <entry value="Solved">
+            <key>
+              <AnswerPlaceholder>
+                <option name="hint" value="" />
+                <option name="index" value="3" />
+                <option name="initialState">
+                  <MyInitialState>
+                    <option name="myLine" value="15" />
+                    <option name="myLength" value="5" />
+                    <option name="myStart" value="68" />
+                  </MyInitialState>
+                </option>
+                <option name="length" value="9" />
+                <option name="line" value="15" />
+                <option name="possibleAnswer" value="__bases__" />
+                <option name="start" value="68" />
+                <option name="taskText" />
+              </AnswerPlaceholder>
+            </key>
+          </entry>
+          <entry value="Solved">
+            <key>
+              <AnswerPlaceholder>
+                <option name="hint" value="" />
+                <option name="index" value="3" />
+                <option name="initialState">
+                  <MyInitialState>
+                    <option name="myLine" value="18" />
+                    <option name="myLength" value="15" />
+                    <option name="myStart" value="6" />
+                  </MyInitialState>
+                </option>
+                <option name="length" value="7" />
+                <option name="line" value="18" />
+                <option name="possibleAnswer" value="student" />
+                <option name="start" value="6" />
+                <option name="taskText" />
+              </AnswerPlaceholder>
+            </key>
+          </entry>
+          <entry value="Unchecked">
+            <key>
+              <AnswerPlaceholder>
+                <option name="hint" value="" />
+                <option name="index" value="0" />
+                <option name="initialState">
+                  <MyInitialState>
+                    <option name="myLine" value="9" />
+                    <option name="myLength" value="4" />
+                    <option name="myStart" value="8" />
+                  </MyInitialState>
+                </option>
+                <option name="length" value="4" />
+                <option name="line" value="9" />
+                <option name="possibleAnswer" value="__call__" />
+                <option name="start" value="8" />
+                <option name="taskText" />
+              </AnswerPlaceholder>
+            </key>
+          </entry>
+          <entry value="Solved">
+            <key>
+              <AnswerPlaceholder>
+                <option name="hint" value="" />
+                <option name="index" value="1" />
+                <option name="initialState">
+                  <MyInitialState>
+                    <option name="myLine" value="4" />
+                    <option name="myLength" value="9" />
+                    <option name="myStart" value="13" />
+                  </MyInitialState>
+                </option>
+                <option name="length" value="8" />
+                <option name="line" value="4" />
+                <option name="possibleAnswer" value=".__doc__" />
+                <option name="start" value="13" />
+                <option name="taskText" />
+              </AnswerPlaceholder>
+            </key>
+          </entry>
+          <entry value="Solved">
+            <key>
+              <AnswerPlaceholder>
+                <option name="hint" value="" />
+                <option name="index" value="2" />
+                <option name="initialState">
+                  <MyInitialState>
+                    <option name="myLine" value="20" />
+                    <option name="myLength" value="17" />
+                    <option name="myStart" value="67" />
+                  </MyInitialState>
+                </option>
+                <option name="length" value="9" />
+                <option name="line" value="20" />
+                <option name="possibleAnswer" value="free_time" />
+                <option name="start" value="67" />
+                <option name="taskText" />
+              </AnswerPlaceholder>
+            </key>
+          </entry>
+          <entry value="Solved">
+            <key>
+              <AnswerPlaceholder>
+                <option name="hint" value="" />
+                <option name="index" value="2" />
+                <option name="initialState">
+                  <MyInitialState>
+                    <option name="myLine" value="17" />
+                    <option name="myLength" value="22" />
+                    <option name="myStart" value="16" />
+                  </MyInitialState>
+                </option>
+                <option name="length" value="14" />
+                <option name="line" value="17" />
+                <option name="possibleAnswer" value="pass_all_debts" />
+                <option name="start" value="8" />
+                <option name="taskText" />
+              </AnswerPlaceholder>
+            </key>
+          </entry>
+          <entry value="Unchecked">
+            <key>
+              <AnswerPlaceholder>
+                <option name="hint" value="" />
+                <option name="index" value="0" />
+                <option name="initialState">
+                  <MyInitialState>
+                    <option name="myLine" value="11" />
+                    <option name="myLength" value="8" />
+                    <option name="myStart" value="8" />
+                  </MyInitialState>
+                </option>
+                <option name="length" value="8" />
+                <option name="line" value="11" />
+                <option name="possibleAnswer" value="__iter__" />
+                <option name="start" value="8" />
+                <option name="taskText" />
+              </AnswerPlaceholder>
+            </key>
+          </entry>
+          <entry value="Solved">
+            <key>
+              <AnswerPlaceholder>
+                <option name="hint" value="" />
+                <option name="index" value="0" />
+                <option name="initialState">
+                  <MyInitialState>
+                    <option name="myLine" value="0" />
+                    <option name="myLength" value="13" />
+                    <option name="myStart" value="0" />
+                  </MyInitialState>
+                </option>
+                <option name="length" value="5" />
+                <option name="line" value="0" />
+                <option name="possibleAnswer" value="class" />
+                <option name="start" value="0" />
+                <option name="taskText" />
+              </AnswerPlaceholder>
+            </key>
+          </entry>
+          <entry value="Solved">
+            <key>
+              <AnswerPlaceholder>
+                <option name="hint" value="" />
+                <option name="index" value="2" />
+                <option name="initialState">
+                  <MyInitialState>
+                    <option name="myLine" value="6" />
+                    <option name="myLength" value="24" />
+                    <option name="myStart" value="24" />
+                  </MyInitialState>
+                </option>
+                <option name="length" value="11" />
+                <option name="line" value="6" />
+                <option name="possibleAnswer" value="debts_count" />
+                <option name="start" value="24" />
+                <option name="taskText" />
+              </AnswerPlaceholder>
+            </key>
+          </entry>
+          <entry value="Unchecked">
+            <key>
+              <AnswerPlaceholder>
+                <option name="hint" value="" />
+                <option name="index" value="1" />
+                <option name="initialState">
+                  <MyInitialState>
+                    <option name="myLine" value="31" />
+                    <option name="myLength" value="16" />
+                    <option name="myStart" value="8" />
+                  </MyInitialState>
+                </option>
+                <option name="length" value="16" />
+                <option name="line" value="31" />
+                <option name="possibleAnswer" value="__init__" />
+                <option name="start" value="8" />
+                <option name="taskText" />
+              </AnswerPlaceholder>
+            </key>
+          </entry>
+          <entry value="Solved">
+            <key>
+              <AnswerPlaceholder>
+                <option name="hint" value="" />
+                <option name="index" value="1" />
+                <option name="initialState">
+                  <MyInitialState>
+                    <option name="myLine" value="7" />
+                    <option name="myLength" value="23" />
+                    <option name="myStart" value="8" />
+                  </MyInitialState>
+                </option>
+                <option name="length" value="18" />
+                <option name="line" value="7" />
+                <option name="possibleAnswer" value="self.subject_count" />
+                <option name="start" value="8" />
+                <option name="taskText" />
+              </AnswerPlaceholder>
+            </key>
+          </entry>
+          <entry value="Solved">
+            <key>
+              <AnswerPlaceholder>
+                <option name="hint" value="" />
+                <option name="index" value="0" />
+                <option name="initialState">
+                  <MyInitialState>
+                    <option name="myLine" value="16" />
+                    <option name="myLength" value="18" />
+                    <option name="myStart" value="8" />
+                  </MyInitialState>
+                </option>
+                <option name="length" value="9" />
+                <option name="line" value="16" />
+                <option name="possibleAnswer" value="free_time" />
+                <option name="start" value="8" />
+                <option name="taskText" />
+              </AnswerPlaceholder>
+            </key>
+          </entry>
+          <entry value="Solved">
+            <key>
+              <AnswerPlaceholder>
+                <option name="hint" value="" />
+                <option name="index" value="0" />
+                <option name="initialState">
+                  <MyInitialState>
+                    <option name="myLine" value="4" />
+                    <option name="myLength" value="18" />
+                    <option name="myStart" value="4" />
+                  </MyInitialState>
+                </option>
+                <option name="length" value="11" />
+                <option name="line" value="4" />
+                <option name="possibleAnswer" value="debts_count" />
+                <option name="start" value="4" />
+                <option name="taskText" />
+              </AnswerPlaceholder>
+            </key>
+          </entry>
+          <entry value="Solved">
+            <key>
+              <AnswerPlaceholder>
+                <option name="hint" value="" />
+                <option name="index" value="1" />
+                <option name="initialState">
+                  <MyInitialState>
+                    <option name="myLine" value="27" />
+                    <option name="myLength" value="16" />
+                    <option name="myStart" value="0" />
+                  </MyInitialState>
+                </option>
+                <option name="length" value="7" />
+                <option name="line" value="27" />
+                <option name="possibleAnswer" value="delattr" />
+                <option name="start" value="0" />
+                <option name="taskText" />
+              </AnswerPlaceholder>
+            </key>
+          </entry>
+        </map>
+      </option>
+      <option name="myTaskStatusMap">
+        <map />
+      </option>
+      <option name="myUserTests">
+        <map />
+      </option>
+      <option name="myInvisibleFiles">
+        <list />
+      </option>
+    </StudyTaskManager>
+  </component>
+</project>
